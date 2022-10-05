@@ -1,6 +1,8 @@
 import React from 'react';
-import { Routes, Route, NavLink } from "react-router-dom";
+import { NavLink, Route, Routes } from "react-router-dom";
 import './App.css';
+import Events from './events/Events';
+import Contact from './contact/Contact';
 
 function App() {
   return (
@@ -8,18 +10,16 @@ function App() {
       <div className='global-header'>
         <img className='longNameLogo' src={process.env.PUBLIC_URL + '/images/amoreLongNameBlack.png'} alt="" />
         <div className='sub-links'>
-          {/* <NavLink className='sub-link' to="/shop">Shop</NavLink> */}
           <NavLink className='sub-link' to="/events">Events</NavLink>
           <NavLink className='sub-link' to="/about">About Us</NavLink>
-          {/* <NavLink className='sub-link' to="/contact">Contact Us</NavLink> */}
+          <NavLink className='sub-link' to="/contact">Contact Us</NavLink>
         </div>
       </div>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="shop" element={<Shop />} />
-        <Route path="Events" element={<Events />} />
+        <Route path="events" element={<Events />} />
         <Route path="about" element={<About />} />
-        {/* <Route path="contact" element={<ContactForm />} /> */}
+        <Route path="contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
@@ -30,24 +30,6 @@ function Main() {
   return (
     <div>
       <img className="home-logo" src={process.env.PUBLIC_URL + '/images/amoreBlack.png'} alt="" height="400px" width="400px" />
-    </div>
-  );
-}
-
-function Shop() {
-  return (
-    <div className='page-body'>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus. A condimentum vitae sapien pellentesque. Imperdiet nulla malesuada pellentesque elit eget gravida. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. In ante metus dictum at tempor commodo ullamcorper a. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Lectus magna fringilla urna porttitor rhoncus dolor purus non. Blandit volutpat maecenas volutpat blandit. Etiam dignissim diam quis enim lobortis scelerisque fermentum. Nisl condimentum id venenatis a. Duis at tellus at urna condimentum mattis pellentesque. Volutpat diam ut venenatis tellus in. Mauris a diam maecenas sed. Elit sed vulputate mi sit amet mauris commodo quis imperdiet.</p>
-    </div>
-  );
-}
-
-function Events() {
-  return (
-    <div className='page-body'>
-      <div className='container'>
-        <li>October 16th</li>
-      </div>
     </div>
   );
 }
