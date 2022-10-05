@@ -63,13 +63,13 @@ function About() {
 function Footer() {
   return (
     <div className="app-footer row">
-      <a className="social-links" href='https://www.facebook.com/amoretalla/'>
+      <a className="social-links" href='https://www.facebook.com/amoretalla/' target='_blank' rel='noreferrer'>
         <img src={process.env.PUBLIC_URL + '/images/fb.png'} alt="" height="20px" width="20px" />
       </a>
-      <a className="social-links" href='https://www.instagram.com/amoretallabridal/'>
+      <a className="social-links" href='https://www.instagram.com/amoretallabridal/' target='_blank' rel='noreferrer'>
         <img src={process.env.PUBLIC_URL + '/images/insta.png'} alt="" height="20px" width="20px" />
       </a>
-      <a className="social-links" href='https://www.twitter.com/amoretallabride/'>
+      <a className="social-links" href='https://www.twitter.com/amoretallabride/' target='_blank' rel='noreferrer'>
         <img src={process.env.PUBLIC_URL + '/images/twitter.png'} alt="" height="20px" width="20px" />
       </a>
       <div className="subt">Amoretalla LLC</div>
