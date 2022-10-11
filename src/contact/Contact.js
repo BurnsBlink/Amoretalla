@@ -3,11 +3,11 @@ import '../App.css';
 
 const Contact = () => {
   return (
-    <div className='page-body'>
+    <div className='pageBody'>
       <div className='container' >
         <div className='contact'>
-        ✉ g.atallah@amoretalla.com<br></br>
-        ☏ (603) 685-8478<br></br><br></br>
+        <a href="mailto:g.atallah@amoretalla.com">✉ g.atallah@amoretalla.com</a><br></br>
+        <a href="tel:555-555-5555">☏ (603) 685-8478</a><br></br><br></br>
         
         8 Stiles Road<br></br>
         Salem, NH 03079
