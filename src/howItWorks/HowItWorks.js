@@ -17,7 +17,7 @@ const HowItWorks = () => {
         </div>
         <div className='row'>
           <span className='col-2'></span>
-          <span className='col hIWbody'>Conceptual meeting with Daniel Faucher where you establish general direction for the dress.<br></br>
+          <span className='col hIWbody'>Conceptual meeting with Gabe Atallah where you establish general direction for the dress.<br></br>
               ​Live sketching by the designer. <br></br><br></br>
               <em>Please bring any inspiration images that may help us understand your vision </em>
           </span>
