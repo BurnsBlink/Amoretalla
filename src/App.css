@@ -116,7 +116,7 @@
 }
 
 .text {
-  background-color: #000;
+  background-color: #181818;
   color: #fff;
   font-size: 16px;
   padding: 16px 32px;
@@ -175,6 +175,22 @@
   margin-left: auto;
   margin-right: auto;
   text-align: left !important;
+}
+.pageBodyContact {
+  padding-bottom: 7.5rem;
+}
+.containerContact {
+  width: 60%;
+}
+.btnSubmit {
+  background-color: #181818;
+  border: 1px outset #fff;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.btnSubmit:hover {
+  border: 1px outset #000;
+  color: #fff;
 }
 /* HOW IT WORKS */
 .howItWorksText {
