@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, Route, Routes } from "react-router-dom";
 import './App.css';
 import Events from './events/Events';
-import Contact from './contact/Contact';
+import ContactForm from './contact/ContactForm';
 import HowItWorks from './howItWorks/HowItWorks'
 import Main from './main/Main'
 import About from './about/About'
@@ -24,7 +24,7 @@ function App() {
         <Route path="events" element={<Events />} />
         <Route path="howItWorks" element={<HowItWorks />} />
         <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="contact" element={<ContactForm />} />
       </Routes>
       <Footer />
     </div>

@@ -5,7 +5,7 @@ const HowItWorks = () => {
   return (
     <div className='pageBodyHowItWorks'>
       <div className='reserve-col'>
-          <img className="reserve-img" src={process.env.PUBLIC_URL + '/images/howItWorks.jpg'} alt="" />
+          <img className="reserve-img" src={process.env.PUBLIC_URL + '/images/howItWorks.jpeg'} alt="" />
           <div className="middlePlacement">
             <p className="howItWorksText">HOW IT WORKS</p>
           </div>
