@@ -2,10 +2,20 @@ import React from "react";
 import '../App.css';
 
 const HowItWorks = () => {
+  const imageSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/howItWorks_YS7GFTUIi.jpeg'
+  const imageSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/howItWorks_YS7GFTUIi.jpeg'
+  const imageSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/howItWorks_YS7GFTUIi.jpeg'
+  const imageSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/howItWorks_YS7GFTUIi.jpeg'
+
   return (
     <div className='pageBodyHowItWorks'>
       <div className='reserve-col'>
-          <img className="reserve-img" src={process.env.PUBLIC_URL + '/images/howItWorks.jpeg'} alt="" />
+          <img
+            className="reserve-img"
+            src='https://ik.imagekit.io/r596hampx/howItWorks_YS7GFTUIi.jpeg'
+            srcSet={`${imageSizeSmall} 600w, ${imageSizeMed} 800w, ${imageSizeLarge} 1200w, ${imageSizeXlarge} 1600w `}
+            alt=""
+          />
           <div className="middlePlacement">
             <p className="howItWorksText">HOW IT WORKS</p>
           </div>
