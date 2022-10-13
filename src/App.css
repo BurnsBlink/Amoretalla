@@ -37,7 +37,7 @@
   font-weight: bold;
 }
 .pageBody {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   padding-bottom: 5rem;
 }
 .aboutUsProfileImg {
@@ -187,6 +187,7 @@
   border: 1px outset #fff;
   color: #fff;
   letter-spacing: 1px;
+  margin-bottom: 16px;
 }
 .btnSubmit:hover {
   border: 1px outset #000;
