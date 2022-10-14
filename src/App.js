@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className='globalHeader'>
-        <NavLink to="/"><img className='longNameLogo' src={process.env.PUBLIC_URL + '/images/amoreLongNameBlack.png'} alt="" /></NavLink>
+        <NavLink to="/"><img className='longNameLogo' src='https://ik.imagekit.io/r596hampx/amoreLongNameBlack_QsCaHQlI4.png' alt="" /></NavLink>
         <div className='subLinks'>
           <NavLink className='subLink' to="/events">Events</NavLink>
           <NavLink className='subLink' to="/howItWorks">How It Works</NavLink>
@@ -35,13 +35,13 @@ function Footer() {
   return (
     <div className="appFooter row">
       <a className="socialLinks" href='https://www.facebook.com/amoretalla/' target='_blank' rel='noreferrer'>
-        <img src={process.env.PUBLIC_URL + '/images/fb.png'} alt="" height="20px" width="20px" />
+        <img src='https://ik.imagekit.io/r596hampx/tr:w-100/fb_OiuqGW6o8.png' alt="" height="20px" width="20px" />
       </a>
       <a className="socialLinks" href='https://www.instagram.com/amoretallabridal/' target='_blank' rel='noreferrer'>
-        <img src={process.env.PUBLIC_URL + '/images/insta.png'} alt="" height="20px" width="20px" />
+        <img src='https://ik.imagekit.io/r596hampx/tr:w-100/insta_upynJ6i0W.png' alt="" height="20px" width="20px" />
       </a>
       <a className="socialLinks" href='https://www.twitter.com/amoretallabride/' target='_blank' rel='noreferrer'>
-        <img src={process.env.PUBLIC_URL + '/images/twitter.png'} alt="" height="20px" width="20px" />
+        <img src='https://ik.imagekit.io/r596hampx/tr:w-100/twitter_i2c0N4DFq.png' alt="" height="20px" width="20px" />
       </a>
       <div className="subt">Amoretalla LLC</div>
       <div className="subt">Copyright © All Rights Reserved</div>

@@ -40,6 +40,9 @@
   margin-top: 1rem;
   padding-bottom: 5rem;
 }
+.pageBodyMain {
+  padding-bottom: 5rem;
+}
 .aboutUsProfileImg {
   float: right;
   margin: 5px;
@@ -56,6 +59,10 @@
     font-weight: 600 !important;
     letter-spacing: 5px !important;
   }
+  .text {
+    font-size: 12px !important;
+    padding: 14px 28px !important;
+  }  
 }
 @media (max-width: 767px) {
   .howItWorksText {
@@ -88,12 +95,17 @@
 }
 /* MAIN */
 
-.reserve-col {
+.reserveCol {
   position: relative;
   width: 100%;
 }
 
-.reserve-img {
+.mainDressImg {
+  width: 100%;
+  height: auto;
+}
+
+.reserveImg {
   opacity: 1;
   display: block;
   width: 100%;
@@ -103,7 +115,7 @@
   filter: grayscale(0.7);
 }
 
-.middle-btn {
+.middleBtn {
   transition: .5s ease;
   opacity: 1;
   position: absolute;
@@ -145,7 +157,16 @@
 }
 
 .igImg:hover {
+  color: black;
+  cursor: url('https://ik.imagekit.io/r596hampx/tr:w-20/insta_upynJ6i0W.png'), default;
+}
+
+.igImg:hover {
   opacity: 0.3;
+}
+
+.instaData {
+  padding: 30px 0px;
 }
 
 /* EVENT PAGE */
@@ -192,6 +213,17 @@
 .btnSubmit:hover {
   border: 1px outset #000;
   color: #fff;
+}
+.emailLink {
+  border-right: 1px solid lightgray;
+  color: #000;
+  font-size: 35px;
+  padding-right: 20px;
+}
+.phoneLink {
+  color: #000;
+  font-size: 35px;
+  padding-left: 20px;
 }
 /* HOW IT WORKS */
 .howItWorksText {
