@@ -12,11 +12,11 @@ function Main() {
   const mainImgSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/maindress_H2sXJk6xW.jpg'
   const mainImgSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/maindress_H2sXJk6xW.jpg'
   const mainImgSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/maindress_H2sXJk6xW.jpg'
+
   useEffect(() => {
-    (async () => {
-      const IGTOKEN = process.env.REACT_APP_IG_TOKEN
-      const data = <Helmet>
-        <script type="text/javascript">{`
+    const IGTOKEN = process.env.REACT_APP_IG_TOKEN
+    const data = <Helmet>
+      <script type="text/javascript">{`
         var userFeed = new Instafeed({
           get: 'user',
           target: 'instafeed',
@@ -26,15 +26,14 @@ function Main() {
           template: '<a class="igLink" href="{{link}}"><img class="igImg" title="{{caption}}" src="{{image}}" /></a>'
         });
         userFeed.run();`}
-        </script>
-      </Helmet>
-      setInstagramFeed(data)
-    })();
+      </script>
+    </Helmet>
+    setInstagramFeed(data)
   }, []);
 
   return (
     <div className='pageBodyMain'>
-      <div className='reserveCol'>
+      <div className='imgCol'>
         <img
           className='mainDressImg'
           src='https://ik.imagekit.io/r596hampx/maindress_H2sXJk6xW.jpg'
@@ -43,8 +42,20 @@ function Main() {
         />
       </div>
       <div className='container'>
-        <div className='col instaData'>
-          <div id='instafeed'></div>
+        <div className='row'>
+          <h1 className='col mainTitleText'>
+            CUSTOM DESIGNS FOR THE MODERN BRIDE
+          </h1>
+        </div>
+        <div className='row'>
+          <div className='col mainSubtitleText'>
+            At Amorétalla, we seamlessly incorporate timeless opulence & hand-sewn Haute Couture techniques.  Make your remarkable day more extraordinary with a dress designed just for you.
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col'>
+            <div id='instafeed'></div>
+          </div>
         </div>
       </div>
       <div className='reserveCol'>
@@ -58,7 +69,6 @@ function Main() {
           <a href='mailto:g.atallah@amoretalla.com' className='text'>Reserve Appointment</a>
         </div>
       </div>
-
       {instagramFeed}
     </div>
   );
