@@ -94,17 +94,27 @@
   margin-top: 0.5rem;
 }
 /* MAIN */
-
 .reserveCol {
+  margin-top: 50px;
   position: relative;
   width: 100%;
 }
-
+.imgCol {
+  position: relative;
+  width: 100%;
+}
 .mainDressImg {
   width: 100%;
   height: auto;
 }
-
+.mainTitleText {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.mainSubtitleText {
+  margin-bottom: 50px;
+  opacity: .6;
+}
 .reserveImg {
   opacity: 1;
   display: block;
@@ -114,7 +124,6 @@
   backface-visibility: hidden;
   filter: grayscale(0.7);
 }
-
 .middleBtn {
   transition: .5s ease;
   opacity: 1;
@@ -126,7 +135,6 @@
   text-align: center;
   width: 80%;
 }
-
 .text {
   background-color: #181818;
   color: #fff;
@@ -135,17 +143,14 @@
   border-radius: 5px;
   border: 1px solid #fff;
 }
-
 .text:hover {
   border: 1px solid #000;
   color: #fff;
   text-decoration: none;
 }
-
 .igLink {
   position: relative;
 }
-
 .igImg {
   max-width: 18em;
   max-width: 14em;
@@ -155,20 +160,13 @@
   border-top: 10px;
   margin-bottom: 5px;
 }
-
 .igImg:hover {
   color: black;
   cursor: url('https://ik.imagekit.io/r596hampx/tr:w-20/insta_upynJ6i0W.png'), default;
 }
-
 .igImg:hover {
   opacity: 0.3;
 }
-
-.instaData {
-  padding: 30px 0px;
-}
-
 /* EVENT PAGE */
 .eventBorder {
   width: 50%;

@@ -9,7 +9,7 @@ const HowItWorks = () => {
 
   return (
     <div className='pageBodyHowItWorks'>
-      <div className='reserveCol'>
+      <div className='imgCol'>
           <img
             className="reserveImg"
             src='https://ik.imagekit.io/r596hampx/howItWorks_YS7GFTUIi.jpeg'
@@ -32,7 +32,6 @@ const HowItWorks = () => {
               <em>Please bring any inspiration images that may help us understand your vision </em>
           </span>
         </div>
-
         <div className='row hIWRow'>
           <span className='col-2 hIWNumbers'>2:</span>
           <span className='col hIWTitle'>FIRST FITTING</span>
@@ -42,7 +41,6 @@ const HowItWorks = () => {
           <span className='col hIWbody'>The first fitting to determine the perfect fit, silhouette, and design lines.
           </span>
         </div>
-
         <div className='row hIWRow'>
           <span className='col-2 hIWNumbers'>3:</span>
           <span className='col hIWTitle'>SECOND FITTING </span>
@@ -53,7 +51,6 @@ const HowItWorks = () => {
             At this fitting we are making sure all ideas & inspiration are incorporated. 
           </span>
         </div>
-
         <div className='row hIWRow'>
           <span className='col-2 hIWNumbers'>4:</span>
           <span className='col hIWTitle'>THIRD FITTING</span>
@@ -64,7 +61,6 @@ const HowItWorks = () => {
             ​At this fitting we are perfecting fit and hemlines.
           </span>
         </div>
-
         <div className='row hIWRow'>
           <span className='col-2 hIWNumbers'>5:</span>
           <span className='col hIWTitle'>FINAL FITTING</span>
