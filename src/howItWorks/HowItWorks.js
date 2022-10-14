@@ -9,9 +9,9 @@ const HowItWorks = () => {
 
   return (
     <div className='pageBodyHowItWorks'>
-      <div className='reserve-col'>
+      <div className='reserveCol'>
           <img
-            className="reserve-img"
+            className="reserveImg"
             src='https://ik.imagekit.io/r596hampx/howItWorks_YS7GFTUIi.jpeg'
             srcSet={`${imageSizeSmall} 600w, ${imageSizeMed} 800w, ${imageSizeLarge} 1200w, ${imageSizeXlarge} 1600w `}
             alt=""

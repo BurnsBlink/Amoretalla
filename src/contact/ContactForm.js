@@ -11,7 +11,7 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('default_service', 'amoretalla_com', e.target, process.env.REACT_APP_EMAIL_TOKEN)
+    emailjs.sendForm('default_service', process.env.REACT_APP_EMAIL_ENV, e.target, process.env.REACT_APP_EMAIL_TOKEN)
       .then((result) => {
         console.log(result)
         alert('Message was sent!');
@@ -60,6 +60,9 @@ const ContactForm = () => {
           <button type='submit' value='Send' className='btn btnSubmit'>SUBMIT</button>
         </form>
       </div>
+
+      <a className='emailLink' href='mailto:g.atallah@amoretalla.com'>✉</a>
+      <a className='phoneLink' href='tel:555-555-5555'>☏</a>
     </div>
   );
 };
