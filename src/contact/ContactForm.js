@@ -62,7 +62,7 @@ const ContactForm = () => {
       </div>
 
       <a className='emailLink' href='mailto:g.atallah@amoretalla.com'>✉</a>
-      <a className='phoneLink' href='tel:555-555-5555'>☏</a>
+      <a className='phoneLink' href='tel:603-685-8478'>☏</a>
     </div>
   );
 };
