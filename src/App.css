@@ -62,7 +62,34 @@
   .text {
     font-size: 12px !important;
     padding: 14px 28px !important;
-  }  
+  }
+  .longNameLogo {
+    width: 50% !important;
+  }
+  .hamburgerMenu {
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+    display: flex !important;
+    left: 25px;
+    position: fixed;
+    top: 25px;
+    z-index: 10;
+  }
+  .hamburgerMenuOpen {
+    background-color: #2a2a2a;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex !important;
+    left: 25px;
+    position: fixed;
+    top: 25px;
+    z-index: 10;
+  }
+  .subLinks {
+    display: none !important;
+  }
 }
 @media (max-width: 767px) {
   .howItWorksText {
@@ -259,4 +286,42 @@
 }
 .hIWRow {
   padding-top: 40px;
+}
+/* Sidebar */
+.navBar {
+  position: relative;
+}
+.hamburgerMenu {
+  display: none;
+}
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: #2a2a2a;
+  left: -40px;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 340px;
+  z-index: 9;
+}
+.menuNav.showMenu {
+  width: 100%;
+}
+.mobileSubLinks {
+  display: grid;
+}
+.mobileSubLink {
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  opacity: 65%;
+}
+.mobileSubLink:hover {
+  color: #fff;
+  opacity: 100%;
 }
