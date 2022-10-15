@@ -66,7 +66,7 @@
   .longNameLogo {
     width: 50% !important;
   }
-  .hamburgerMenu {
+  /* .hamburgerMenu {
     background-color: #fff;
     border: 1px solid #e8e8e8;
     color: #000;
@@ -90,7 +90,7 @@
   }
   .subLinks {
     display: none !important;
-  }
+  } */
 }
 @media (max-width: 767px) {
   .howItWorksText {
@@ -101,7 +101,7 @@
 }
 .appFooter {
   background: #f8f8ff;
-  border-top: 0.125rem solid #be1e2d;
+  border-top: 0.125rem solid gainsboro;
   bottom: 0;
   display: block;
   height: 5rem;
@@ -312,7 +312,7 @@
 .menuNav.showMenu {
   width: 100%;
 }
-.mobileSubLinks {
+/* .mobileSubLinks {
   display: grid;
 }
 .mobileSubLink {
@@ -325,4 +325,4 @@
 .mobileSubLink:hover {
   color: #fff;
   opacity: 100%;
-}
+} */
