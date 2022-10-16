@@ -66,7 +66,7 @@ const ContactForm = () => {
             <div><a className='emailLink' href='mailto:g.atallah@amoretalla.com'>✉ g.atallah@amoretalla.com</a></div>
             <div><a className='phoneLink' href='tel:603-685-8478'>☏ 603-685-8478</a></div>
 
-            <div className='addressBlock'><a className='address' href='http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003'>8 Stiles Road<br></br>
+            <div className='addressBlock'><a className='address' href='http://maps.google.com/?q=8 Stiles Rd, Salem, New Hampshire, 03079'>8 Stiles Road<br></br>
             Salem, NH 03079</a></div>
           </div>
         </div>
