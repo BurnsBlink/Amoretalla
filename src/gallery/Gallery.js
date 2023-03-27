@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import '../App.css';
-import Lightbox from "yet-another-react-lightbox";
-import Counter from "yet-another-react-lightbox/plugins/counter";
-import "yet-another-react-lightbox/styles.css";
-import "yet-another-react-lightbox/plugins/counter.css";
+import Lightbox from 'yet-another-react-lightbox';
+import Counter from 'yet-another-react-lightbox/plugins/counter';
+import 'yet-another-react-lightbox/styles.css';
+import 'yet-another-react-lightbox/plugins/counter.css';
 
 function Gallery() {
   const [open, setOpen] = useState(false)
@@ -19,12 +19,12 @@ function Gallery() {
           <div className='collectionBox col-md-6 col-sm-12'>
             <div className='lookbookTitle'>THE A COLLECTION '23</div>
             <div className='lookbookPDF'>
-              <a target="_blank" href="/images/lookbook23.pdf">
+              <a target='_blank' href='/images/lookbook23.pdf'>
                 <img
-                  className="lookbookPreview"
+                  className='lookbookPreview'
                   src='https://ik.imagekit.io/r596hampx/pdfPreview_tHA-u94SK.png'
                   srcSet={`${aColcSizeSmall} 600w, ${aColcSizeMed} 800w`}
-                  alt=""
+                  alt=''
                 />
               </a>
             </div>
@@ -32,34 +32,40 @@ function Gallery() {
           <div className='col-md-6 col-sm-12'>
             <div className='lookbookTitle'>THE FIRST COLLECTION</div>
             <div className='lookbookPDF'>
-              <button className='galleryBtn' onClick={() => setOpen(true)} target="_blank">
+              <button className='galleryBtn' onClick={() => setOpen(true)} target='_blank'>
                 <img
-                  className="lookbookPreview"
+                  className='lookbookPreview'
                   src='https://ik.imagekit.io/r596hampx/0794_QyTGXKlVr.JPG'
                   srcSet={`${firstColcSizeSmall} 600w, ${firstColcSizeMed} 800w`}
-                  alt=""
+                  alt=''
                 />
               </button>
 
               <Lightbox
                 plugins={[Counter]}
-                counter={{ style: { top: "unset", bottom: 0 } }}
+                counter={{ style: { top: 'unset', bottom: 0 } }}
                 open={open}
                 close={() => setOpen(false)}
                 slides={[
-                  { src: "https://ik.imagekit.io/r596hampx/0794_QyTGXKlVr.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/0800_cU_TYs0H4.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/0812_tCj8j8nvDX.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/0808_hheXdK-Ty.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/0817_wakcjmV8is.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/0517_i3oEg810W.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/0515_05dheBEW8.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/0530_AQWmgDPQW.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/0827_2_JZ1outd.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/1647_CBWHIoRMY.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/1648_EUq61K6as.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/1665_j1e41GHjt.JPG" },
-                  { src: "https://ik.imagekit.io/r596hampx/1668_JJrqyOU3_.JPG" }
+                  { src: 'https://ik.imagekit.io/r596hampx/0794_QyTGXKlVr.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/0800_cU_TYs0H4.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/0812_tCj8j8nvDX.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/0817_wakcjmV8is.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/0515_05dheBEW8.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/0530_AQWmgDPQW.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/0827_2_JZ1outd.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/0861_fSrEg651U.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1324_s6OAcJIJNu.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1339_MUkc-wSs3.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1400_0ys23yPQRN.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1638__uT4A_Zzdj.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1644_WZhhY4ZsS.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1647_CBWHIoRMY.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1658_mmL4bvOZF.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1669_VRzrKDJ73.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1805_zEYJMi-Se.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1811_EALPGOS1t1.JPG' },
+                  { src: 'https://ik.imagekit.io/r596hampx/1815_veHhc4oMd.JPG' }
                 ]}
               />
             </div>
