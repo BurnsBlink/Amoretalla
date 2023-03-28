@@ -12,12 +12,87 @@ function Gallery() {
   const firstColcSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/0794_QyTGXKlVr.JPG'
   const firstColcSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/0794_QyTGXKlVr.JPG'
 
+  const spreadOneSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/SPREADS-1.jpg'
+  const spreadOneSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/SPREADS-1.jpg'
+  const spreadOneSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-1.jpg'
+  const spreadOneSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-1.jpg'
+
+  const spreadTwoSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/SPREADS-2.jpg'
+  const spreadTwoSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/SPREADS-2.jpg'
+  const spreadTwoSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-2.jpg'
+  const spreadTwoSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-2.jpg'
+
+  const spreadThrSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/SPREADS-3.jpg'
+  const spreadThrSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/SPREADS-3.jpg'
+  const spreadThrSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-3.jpg'
+  const spreadThrSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-3.jpg'
+
+  const spreadFourSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/SPREADS-4.jpg'
+  const spreadFourSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/SPREADS-4.jpg'
+  const spreadFourSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-4.jpg'
+  const spreadFourSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-4.jpg'
+
+  const spreadFivSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/SPREADS-5.jpg'
+  const spreadFivSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/SPREADS-5.jpg'
+  const spreadFivSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-5.jpg'
+  const spreadFivSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-5.jpg'
+
   return (
     <div className='pageBody'>
       <div className='container'>
+        <div className='row galleryRow'>
+          <div className='notes__inner__image'>
+            <img
+              className=''
+              src='https://ik.imagekit.io/r596hampx/SPREADS-1.jpg'
+              srcSet={`${spreadOneSizeSmall} 600w, ${spreadOneSizeMed} 800w, ${spreadOneSizeLarge} 1200w,  ${spreadOneSizeXlarge} 1600w`}
+              alt=''
+            />
+          </div>
+        </div>
+        <div className='row galleryRow'>
+          <div className='notes__inner__image'>
+            <img
+              className=''
+              src='https://ik.imagekit.io/r596hampx/SPREADS-2.jpg'
+              srcSet={`${spreadTwoSizeSmall} 600w, ${spreadTwoSizeMed} 800w, ${spreadTwoSizeLarge} 1200w,  ${spreadTwoSizeXlarge} 1600w`}
+              alt=''
+            />
+          </div>
+        </div>
+        <div className='row galleryRow'>
+          <div className='notes__inner__image'>
+            <img
+              className=''
+              src='https://ik.imagekit.io/r596hampx/SPREADS-3.jpg'
+              srcSet={`${spreadThrSizeSmall} 600w, ${spreadThrSizeMed} 800w, ${spreadThrSizeLarge} 1200w,  ${spreadThrSizeXlarge} 1600w`}
+              alt=''
+            />
+          </div>
+        </div>
+        <div className='row galleryRow'>
+          <div className='notes__inner__image'>
+            <img
+              className=''
+              src='https://ik.imagekit.io/r596hampx/SPREADS-4.jpg'
+              srcSet={`${spreadFourSizeSmall} 600w, ${spreadFourSizeMed} 800w, ${spreadFourSizeLarge} 1200w,  ${spreadFourSizeXlarge} 1600w`}
+              alt=''
+            />
+          </div>
+        </div>
+        <div className='row galleryRow'>
+          <div className='notes__inner__image'>
+            <img
+              className=''
+              src='https://ik.imagekit.io/r596hampx/SPREADS-5.jpg'
+              srcSet={`${spreadFivSizeSmall} 600w, ${spreadFivSizeMed} 800w, ${spreadFivSizeLarge} 1200w,  ${spreadFivSizeXlarge} 1600w`}
+              alt=''
+            />
+          </div>
+        </div>
         <div className='row'>
           <div className='collectionBox col-md-6 col-sm-12'>
-            <div className='lookbookTitle'>THE A COLLECTION '23</div>
+            <div className='lookbookTitle'>THE 'A' COLLECTION '23</div>
             <div className='lookbookPDF'>
               <a target='_blank' href='/images/lookbook23.pdf'>
                 <img
@@ -57,7 +132,6 @@ function Gallery() {
                   { src: 'https://ik.imagekit.io/r596hampx/0861_fSrEg651U.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1324_s6OAcJIJNu.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1339_MUkc-wSs3.JPG' },
-                  { src: 'https://ik.imagekit.io/r596hampx/1400_0ys23yPQRN.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1638__uT4A_Zzdj.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1644_WZhhY4ZsS.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1647_CBWHIoRMY.JPG' },
