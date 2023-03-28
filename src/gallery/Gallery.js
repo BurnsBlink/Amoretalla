@@ -92,7 +92,7 @@ function Gallery() {
         </div>
         <div className='row'>
           <div className='collectionBox col-md-6 col-sm-12'>
-            <div className='lookbookTitle'>THE 'A' COLLECTION '23</div>
+            <div className='lookbookTitle'>THE <img className='alogo' src='/images/blacklogo.png' alt='amoretalla logo'></img> COLLECTION</div>
             <div className='lookbookPDF'>
               <a target='_blank' href='/images/lookbook23.pdf'>
                 <img
@@ -124,21 +124,16 @@ function Gallery() {
                 slides={[
                   { src: 'https://ik.imagekit.io/r596hampx/0794_QyTGXKlVr.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/0800_cU_TYs0H4.JPG' },
-                  { src: 'https://ik.imagekit.io/r596hampx/0812_tCj8j8nvDX.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/0817_wakcjmV8is.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/0515_05dheBEW8.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/0530_AQWmgDPQW.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/0827_2_JZ1outd.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/0861_fSrEg651U.JPG' },
-                  { src: 'https://ik.imagekit.io/r596hampx/1324_s6OAcJIJNu.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1339_MUkc-wSs3.JPG' },
-                  { src: 'https://ik.imagekit.io/r596hampx/1638__uT4A_Zzdj.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1644_WZhhY4ZsS.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1647_CBWHIoRMY.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1658_mmL4bvOZF.JPG' },
-                  { src: 'https://ik.imagekit.io/r596hampx/1669_VRzrKDJ73.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1805_zEYJMi-Se.JPG' },
-                  { src: 'https://ik.imagekit.io/r596hampx/1811_EALPGOS1t1.JPG' },
                   { src: 'https://ik.imagekit.io/r596hampx/1815_veHhc4oMd.JPG' }
                 ]}
               />
