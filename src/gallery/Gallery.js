@@ -105,7 +105,7 @@ function Gallery() {
             </div>
           </div>
           <div className='col-md-6 col-sm-12'>
-            <div className='lookbookTitle'>THE FIRST COLLECTION</div>
+            <div className='lookbookTitle'>THE CUSTOM COLLECTION</div>
             <div className='lookbookPDF'>
               <button className='galleryBtn' onClick={() => setOpen(true)} target='_blank'>
                 <img
