@@ -5,20 +5,21 @@ const Events = () => {
   return (
     <div className='pageBody'>
       <div className='container'>
-        <a href='https://www.bridalshowsri.com/' className='eventLink' target='_blank' rel='noreferrer'>
+        <a href='https://www.nationalbridalmarket.com/' className='eventLink' target='_blank' rel='noreferrer'>
             <div className="row">
               <div className='col-4 eventDate'>
-                <h4>OCT <br></br>16th</h4>
+                <h4>AUG <br></br>20-22nd</h4>
               </div>
               <div className="col">
-                <span className='eventTitle'>Rhode Island Bridal & Wedding Expo<br></br></span>
-                <span className='eventTime'>Sunday 1 pm – 5 pm<br></br></span>
-                <span className='eventLocation'>Rhode Island Convention Center, 1 Sabin St<br></br></span>
-                <span className='eventCity'>Providence, RI 02903<br></br></span>
+                <span className='eventTitle'>National Bridal Market - Chicago<br></br></span>
+                <span className='eventTime'>8/20-8/21: 9 am - 6 pm || 8/22: 9 am - 3 pm<br></br></span>
+                <span className='eventLocation'>222 Merchandise Mart Plaza<br></br></span>
+                <span className='eventLocation'>7th Floor Market Suites<br></br></span>
+                <span className='eventCity'>Chicago, IL 60654<br></br></span>
               </div>
             </div>
         </a>
-        <hr className='eventBorder'></hr>
+        {/* <hr className='eventBorder'></hr>
         <a href='https://www.tristatebridalshows-nc.com/' className='eventLink' target='_blank' rel='noreferrer'>
             <div className="row">
               <div className='col-4 eventDate'>
@@ -31,7 +32,7 @@ const Events = () => {
                 <span className='eventCity'>Uniondale, NY 11553<br></br></span>
               </div>
             </div>
-        </a>
+        </a> */}
       </div>
     </div>
   );
