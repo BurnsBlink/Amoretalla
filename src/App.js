@@ -4,7 +4,7 @@ import Hamburger from 'hamburger-react'
 import './App.css';
 import About from './about/About'
 import ContactForm from './contact/ContactForm'
-// import Events from './events/Events'
+import Events from './events/Events'
 import Gallery from './gallery/Gallery'
 import HowItWorks from './howItWorks/HowItWorks'
 import Main from './main/Main'
@@ -43,7 +43,7 @@ function App() {
         </div>
         <div className='subLinks'>
           <NavLink className='subLink' to="/gallery">Gallery</NavLink>
-          {/* <NavLink className='subLink' to="/events">Events</NavLink> */}
+          <NavLink className='subLink' to="/events">Events</NavLink>
           <NavLink className='subLink' to="/howItWorks">How It Works</NavLink>
           <NavLink className='subLink' to="/about">About Us</NavLink>
           <NavLink className='subLink' to="/contact">Contact Us</NavLink>
@@ -52,7 +52,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="gallery" element={<Gallery />} />
-        {/* <Route path="events" element={<Events />} /> */}
+        <Route path="events" element={<Events />} />
         <Route path="howItWorks" element={<HowItWorks />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<ContactForm />} />
