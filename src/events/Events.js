@@ -6,18 +6,19 @@ const Events = () => {
     <div className='pageBody'>
       <div className='container'>
         <a href='https://www.nationalbridalmarket.com/' className='eventLink' target='_blank' rel='noreferrer'>
-            <div className="row">
-              <div className='col-4 eventDate'>
-                <h4>AUG <br></br>20-22nd</h4>
-              </div>
-              <div className="col">
-                <span className='eventTitle'>National Bridal Market - Chicago<br></br></span>
-                <span className='eventTime'>8/20-8/21: 9 am - 6 pm || 8/22: 9 am - 3 pm<br></br></span>
-                <span className='eventLocation'>222 Merchandise Mart Plaza<br></br></span>
-                <span className='eventLocation'>7th Floor Market Suites<br></br></span>
-                <span className='eventCity'>Chicago, IL 60654<br></br></span>
-              </div>
+          <div className="row">
+          <div className="col">
+              <span className='eventTitle'>National Bridal Market - Chicago<br></br></span>
+              <span className='eventTime'>8/20-8/21: 9 am - 6 pm || 8/22: 9 am - 3 pm<br></br></span>
+              <span className='eventLocation'>222 Merchandise Mart Plaza<br></br></span>
+              <span className='eventLocation'>7th Floor Market Suites<br></br></span>
+              <span className='eventCity'>Chicago, IL 60654<br></br></span>
             </div>
+            <div className='col-4 eventDate'>
+              <span className='eventTitle'>BOOTH #2098</span><br />
+              <span className='eventTime'>AUG 20-22nd</span>
+            </div>
+          </div>
         </a>
         {/* <hr className='eventBorder'></hr>
         <a href='https://www.tristatebridalshows-nc.com/' className='eventLink' target='_blank' rel='noreferrer'>
