@@ -7,8 +7,8 @@ import 'yet-another-react-lightbox/plugins/counter.css';
 
 function Gallery() {
   const [open, setOpen] = useState(false)
-  const aColcSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/pdfPreview_tHA-u94SK.png'
-  const aColcSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/pdfPreview_tHA-u94SK.png'
+  const aColcSizeSmall = 'https://ik.imagekit.io/r596hampx/cover24_2Aikc_eC-.png'
+  const aColcSizeMed = 'https://ik.imagekit.io/r596hampx/cover24_2Aikc_eC-.png'
   const firstColcSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/0794_QyTGXKlVr.JPG'
   const firstColcSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/0794_QyTGXKlVr.JPG'
 
@@ -37,6 +37,26 @@ function Gallery() {
   const spreadFivSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-5.jpg'
   const spreadFivSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-5.jpg'
 
+  const spreadAnnaSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/anna_spread.png'
+  const spreadAnnaMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/anna_spread.png'
+  const spreadAnnaLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/anna_spread.png'
+  const spreadAnnaXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/anna_spread.png'
+
+  const spreadAntoinnetteSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/antoinnette_spread.png'
+  const spreadAntoinnetteMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/antoinnette_spread.png'
+  const spreadAntoinnetteLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/antoinnette_spread.png'
+  const spreadAntoinnetteXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/antoinnette_spread.png'
+
+  const spreadAzizaSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/aziza_spread.png'
+  const spreadAzizaMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/aziza_spread.png'
+  const spreadAzizaLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/aziza_spread.png'
+  const spreadAzizaXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/aziza_spread.png'
+
+  const spreadAlinaSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/alina_spread.png'
+  const spreadAlinaMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/alina_spread.png'
+  const spreadAlinaLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/alina_spread.png'
+  const spreadAlinaXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/alina_spread.png'
+
   return (
     <div className='pageBody'>
       <div className='container'>
@@ -44,8 +64,38 @@ function Gallery() {
           <div className='notes__inner__image'>
             <img
               className=''
-              src='https://ik.imagekit.io/r596hampx/SPREADS-1.jpg'
-              srcSet={`${spreadOneSizeSmall} 600w, ${spreadOneSizeMed} 800w, ${spreadOneSizeLarge} 1200w,  ${spreadOneSizeXlarge} 1600w`}
+              src='https://ik.imagekit.io/r596hampx/anna_spread.png'
+              srcSet={`${spreadAnnaSmall} 600w, ${spreadAnnaMed} 800w, ${spreadAnnaLarge} 1200w,  ${spreadAnnaXlarge} 1600w`}
+              alt=''
+            />
+          </div>
+        </div>
+        <div className='row galleryRow'>
+          <div className='notes__inner__image'>
+            <img
+              className=''
+              src='https://ik.imagekit.io/r596hampx/antoinnette_spread.png'
+              srcSet={`${spreadAntoinnetteSmall} 600w, ${spreadAntoinnetteMed} 800w, ${spreadAntoinnetteLarge} 1200w,  ${spreadAntoinnetteXlarge} 1600w`}
+              alt=''
+            />
+          </div>
+        </div>
+        <div className='row galleryRow'>
+          <div className='notes__inner__image'>
+            <img
+              className=''
+              src='https://ik.imagekit.io/r596hampx/aziza_spread.png'
+              srcSet={`${spreadAzizaSmall} 600w, ${spreadAzizaMed} 800w, ${spreadAzizaLarge} 1200w,  ${spreadAzizaXlarge} 1600w`}
+              alt=''
+            />
+          </div>
+        </div>
+        <div className='row galleryRow'>
+          <div className='notes__inner__image'>
+            <img
+              className=''
+              src='https://ik.imagekit.io/r596hampx/alina_spread.png'
+              srcSet={`${spreadAlinaSmall} 600w, ${spreadAlinaMed} 800w, ${spreadAlinaLarge} 1200w,  ${spreadAlinaXlarge} 1600w`}
               alt=''
             />
           </div>
@@ -56,6 +106,16 @@ function Gallery() {
               className=''
               src='https://ik.imagekit.io/r596hampx/SPREADS-2.jpg'
               srcSet={`${spreadTwoSizeSmall} 600w, ${spreadTwoSizeMed} 800w, ${spreadTwoSizeLarge} 1200w,  ${spreadTwoSizeXlarge} 1600w`}
+              alt=''
+            />
+          </div>
+        </div>
+        <div className='row galleryRow'>
+          <div className='notes__inner__image'>
+            <img
+              className=''
+              src='https://ik.imagekit.io/r596hampx/SPREADS-1.jpg'
+              srcSet={`${spreadOneSizeSmall} 600w, ${spreadOneSizeMed} 800w, ${spreadOneSizeLarge} 1200w,  ${spreadOneSizeXlarge} 1600w`}
               alt=''
             />
           </div>
@@ -92,12 +152,12 @@ function Gallery() {
         </div>
         <div className='row'>
           <div className='collectionBox col-md-6 col-sm-12'>
-            <div className='lookbookTitle'>THE <img className='alogo' src='/images/blacklogo.png' alt='amoretalla logo'></img> COLLECTION</div>
+            <div className='lookbookTitle'>THE <img className='alogo' src='/images/blacklogo.png' alt='amoretalla logo'></img> COLLECTION 2024</div>
             <div className='lookbookPDF'>
-              <a target='_blank' href='/images/lookbook23.pdf'>
+              <a target='_blank' href='/images/lookbook24.pdf'>
                 <img
                   className='lookbookPreview'
-                  src='https://ik.imagekit.io/r596hampx/pdfPreview_tHA-u94SK.png'
+                  src='https://ik.imagekit.io/r596hampx/cover24_2Aikc_eC-.png'
                   srcSet={`${aColcSizeSmall} 600w, ${aColcSizeMed} 800w`}
                   alt=''
                 />
