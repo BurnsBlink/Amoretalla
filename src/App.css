@@ -204,6 +204,14 @@
 .igImg:hover {
   opacity: 0.3;
 }
+.vPlayerWrapper {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.vPlayerRow {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 /* EVENT PAGE */
 .eventBorder {
   width: 50%;

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../App.css';
 import { Helmet } from 'react-helmet';
+import ReactPlayer from 'react-player'
 
 function Main() {
   const [instagramFeed, setInstagramFeed] = useState()
@@ -52,6 +53,46 @@ function Main() {
             At Amorétalla, we seamlessly incorporate timeless opulence & hand-sewn Haute Couture techniques.  Make your remarkable day more extraordinary with a dress designed just for you.
           </div>
         </div>
+      </div>
+      <div className='row vPlayerRow'>
+        <div className='col vPlayerWrapper'>
+          <ReactPlayer
+            className='react-player'
+            url='/videos/walkway1.mp4'
+            width='100%'
+            height='100%'
+            controls={false}
+            loop={true}
+            playing={true}
+            muted={true}
+          />
+        </div>
+        <div className='col vPlayerWrapper'>
+          <ReactPlayer
+            className='react-player'
+            url='/videos/walkway2.mp4'
+            width='100.08%'
+            height='100%'
+            controls={false}
+            loop={true}
+            playing={true}
+            muted={true}
+          />
+        </div>
+        <div className='col vPlayerWrapper'>
+          <ReactPlayer
+            className='react-player'
+            url='/videos/walkway3.mp4'
+            width='100%'
+            height='100%'
+            controls={false}
+            loop={true}
+            playing={true}
+            muted={true}
+          />
+        </div>
+      </div>
+      <div className='container'>
         <div className='row'>
           <div className='col'>
             <div id='instafeed'></div>
