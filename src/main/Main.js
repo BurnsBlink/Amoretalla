@@ -65,6 +65,7 @@ function Main() {
             loop={true}
             playing={true}
             muted={true}
+            playsinline={true}
           />
         </div>
         <div className='col vPlayerWrapper'>
@@ -77,6 +78,7 @@ function Main() {
             loop={true}
             playing={true}
             muted={true}
+            playsinline={true}
           />
         </div>
         <div className='col vPlayerWrapper'>
@@ -89,6 +91,7 @@ function Main() {
             loop={true}
             playing={true}
             muted={true}
+            playsinline={true}
           />
         </div>
       </div>
