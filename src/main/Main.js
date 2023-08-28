@@ -92,7 +92,7 @@ function Main() {
           />
         </div>
       </div>
-      <div className='container'>
+      <div className='container instafeedContainer'>
         <div className='row'>
           <div className='col'>
             <div id='instafeed'></div>

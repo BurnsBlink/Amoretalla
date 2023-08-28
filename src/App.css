@@ -212,6 +212,9 @@
   margin-left: 0px;
   margin-right: 0px;
 }
+.instafeedContainer{
+  margin-top: 50px;
+}
 /* EVENT PAGE */
 .eventBorder {
   width: 50%;
