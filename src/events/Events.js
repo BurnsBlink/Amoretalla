@@ -9,14 +9,14 @@ const Events = () => {
           <div className="row">
           <div className="col">
               <span className='eventTitle'>National Bridal Market - Chicago<br></br></span>
-              <span className='eventTime'>8/20-8/21: 9 am - 6 pm || 8/22: 9 am - 3 pm<br></br></span>
+              <span className='eventTime'>3/17-3/18: 9 am - 6 pm || 3/19: 9 am - 3 pm<br></br></span>
               <span className='eventLocation'>222 Merchandise Mart Plaza<br></br></span>
               <span className='eventLocation'>7th Floor Market Suites<br></br></span>
               <span className='eventCity'>Chicago, IL 60654<br></br></span>
             </div>
             <div className='col-4 eventDate'>
-              <span className='eventTitle'>BOOTH #2098</span><br />
-              <span className='eventTime'>AUG 20-22nd</span>
+              <span className='eventTitle'>BOOTH #2081</span><br />
+              <span className='eventTime'>MAR 17-19th</span>
             </div>
           </div>
         </a>
