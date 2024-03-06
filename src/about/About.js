@@ -5,7 +5,7 @@ function About() {
   return (
     <div className='pageBody'>
       <div className='container'>
-        <img className='aboutUsProfileImg "col-md-8">' src='https://ik.imagekit.io/r596hampx/gabeProf_fbXiYRsSY.png' alt="" />
+        <img className='aboutUsProfileImg "col-md-8">' src='https://ik.imagekit.io/r596hampx/propic24_8Y_aLYSCbC.jpg' alt="" />
         <h3>MEET THE DESIGNER</h3><br></br>
         <p>
           Gabe Atallah, principal of Amoretalla Couture, began his career working for the

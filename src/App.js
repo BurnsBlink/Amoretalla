@@ -44,7 +44,7 @@ function App() {
         <div className='subLinks'>
           <NavLink className='subLink' to="/gallery">Gallery</NavLink>
           <NavLink className='subLink' to="/events">Events</NavLink>
-          <NavLink className='subLink' to="/howItWorks">How It Works</NavLink>
+          {/* <NavLink className='subLink' to="/howItWorks">How It Works</NavLink> */}
           <NavLink className='subLink' to="/about">About Us</NavLink>
           <NavLink className='subLink' to="/contact">Contact Us</NavLink>
         </div>
@@ -74,7 +74,7 @@ function Footer() {
       <a className="socialLinks" href='https://www.twitter.com/amoretallabride/' target='_blank' rel='noreferrer'>
         <img src='https://ik.imagekit.io/r596hampx/tr:w-100/twitter_i2c0N4DFq.png' alt="" height="20px" width="20px" />
       </a>
-      <div className="subt">Amoretalla LLC</div>
+      <div className="subt">Amorétalla LLC</div>
       <div className="subt">Copyright © All Rights Reserved</div>
     </div>
   )
