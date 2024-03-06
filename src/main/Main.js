@@ -84,7 +84,7 @@ function Main() {
           <h4 className='col mainTitleText'>PUBLICATIONS</h4>
         </div>
         <div className='row'>
-          <a className='col pubLink' href='http://books.vowsmagazine.com/books/vngq/#p=39'>VOWS MAGAZINE <br></br>OCTOBER 2023</a>
+          <a className='pubLink' href='http://books.vowsmagazine.com/books/vngq/#p=39' target='_blank' rel='noreferrer'>VOWS MAGAZINE <br></br>OCTOBER 2023</a>
         </div>
 
         <div className='row'>

@@ -159,9 +159,11 @@
   font-style: italic;
 }
 .pubLink {
+  color: #000;
   margin-bottom: 25px;
   opacity: .5;
-  color: #000;
+  margin-left: auto;
+  margin-right: auto;
   text-decoration: underline;
 }
 .reserveImg {
