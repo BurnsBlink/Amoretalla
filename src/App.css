@@ -145,12 +145,24 @@
   height: auto;
 }
 .mainTitleText {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 25px;
 }
 .mainSubtitleText {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  opacity: .7;
+}
+.mainFooterText {
+  margin-bottom: 10px;
   opacity: .6;
+  font-size: 14px;
+  font-style: italic;
+}
+.pubLink {
+  margin-bottom: 25px;
+  opacity: .5;
+  color: #000;
+  text-decoration: underline;
 }
 .reserveImg {
   opacity: 1;
@@ -159,7 +171,6 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  filter: grayscale(0.7);
 }
 .middleBtn {
   transition: .5s ease;
