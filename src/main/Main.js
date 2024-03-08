@@ -79,7 +79,17 @@ function Main() {
         <div className='row'>
           <div className='col mainSubtitleText'>{longForm.mainPage.description}</div>
         </div>
+      </div>
 
+      <div className='instafeedContainer'>
+        <div className='row'>
+          <div className='col'>
+            <div id='instafeed'></div>
+          </div>
+        </div>
+      </div>
+
+      <div className='container'>
         <div className='row'>
           <h4 className='col mainTitleText'>TESTIMONIALS</h4>
         </div>
@@ -88,14 +98,6 @@ function Main() {
         </div>
         <div className='row'>
           <div className='col mainFooterText'>-{longForm.wedCompanyWeddingWear.author}</div>
-        </div>
-      </div>
-
-      <div className='container instafeedContainer'>
-        <div className='row'>
-          <div className='col'>
-            <div id='instafeed'></div>
-          </div>
         </div>
       </div>
 
