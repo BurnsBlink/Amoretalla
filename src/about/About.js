@@ -40,7 +40,6 @@ function About() {
           to a short-and-sassy number ready to rock the after party. A single dress can offer up to three different looks.
         </p>
 
-
         <div className='row'>
           <h4 className='col mainTitleText'>PUBLICATIONS</h4>
         </div>
