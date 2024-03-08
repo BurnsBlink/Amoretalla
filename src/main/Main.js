@@ -81,13 +81,6 @@ function Main() {
         </div>
 
         <div className='row'>
-          <h4 className='col mainTitleText'>PUBLICATIONS</h4>
-        </div>
-        <div className='row'>
-          <a className='pubLink' href='http://books.vowsmagazine.com/books/vngq/#p=39' target='_blank' rel='noreferrer'>VOWS MAGAZINE <br></br>OCTOBER 2023</a>
-        </div>
-
-        <div className='row'>
           <h4 className='col mainTitleText'>TESTIMONIALS</h4>
         </div>
         <div className='row'>

@@ -108,6 +108,9 @@
     letter-spacing: 5px !important;
   }
 }
+.aboutUsContent {
+  margin-top: 25px;
+}
 .appFooter {
   background: #f8f8ff;
   border-top: 0.125rem solid gainsboro;
@@ -404,6 +407,8 @@
   padding-top: 20px;
 }
 .alogo {
+  margin-bottom: -7px;
+  margin-top: -12px;
   max-height: 55px;
   max-width: 55px;
 }
