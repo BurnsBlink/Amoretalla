@@ -405,6 +405,18 @@
   padding-bottom: 20px;
   padding-top: 20px;
 }
+.swiper-button-next {
+  color: #000 !important;
+}
+.swiper-button-prev {
+  color: #000 !important;
+}
+.swiper-pagination-bullet-active {
+  background: #000 !important;
+}
+.lookbookRow {
+  padding-top: 20px;
+}
 .alogo {
   margin-bottom: -7px;
   margin-top: -12px;
