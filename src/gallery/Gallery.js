@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SwiperGallery from '../swiper/SwiperGallery'
 import '../App.css';
 import Lightbox from 'yet-another-react-lightbox';
 import Counter from 'yet-another-react-lightbox/plugins/counter';
@@ -15,50 +16,35 @@ function Gallery() {
   const firstColcSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/0794_QyTGXKlVr.JPG'
   const firstColcSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/0794_QyTGXKlVr.JPG'
 
-  const spreadOneSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/SPREADS-1.jpg'
-  const spreadOneSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/SPREADS-1.jpg'
-  const spreadOneSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-1.jpg'
-  const spreadOneSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-1.jpg'
+  const blossomSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/Blossom.jpg'
+  const blossomSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/Blossom.jpg'
+  const blossomSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/Blossom.jpg'
+  const blossomSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/Blossom.jpg'
 
-  const spreadTwoSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/SPREADS-2.jpg'
-  const spreadTwoSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/SPREADS-2.jpg'
-  const spreadTwoSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-2.jpg'
-  const spreadTwoSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-2.jpg'
+  const blakeSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/Blake.jpg'
+  const blakeSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/Blake.jpg'
+  const blakeSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/Blake.jpg'
+  const blakeSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/Blake.jpg'
 
-  const spreadThrSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/SPREADS-3.jpg'
-  const spreadThrSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/SPREADS-3.jpg'
-  const spreadThrSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-3.jpg'
-  const spreadThrSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-3.jpg'
+  const bellaroseSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/Bellarose.jpg'
+  const bellaroseSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/Bellarose.jpg'
+  const bellaroseSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/Bellarose.jpg'
+  const bellaroseSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/Bellarose.jpg'
 
-  const spreadFourSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/SPREADS-4.jpg'
-  const spreadFourSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/SPREADS-4.jpg'
-  const spreadFourSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-4.jpg'
-  const spreadFourSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-4.jpg'
+  const brielleSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/Brielle.jpg'
+  const brielleSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/Brielle.jpg'
+  const brielleSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/Brielle.jpg'
+  const brielleSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/Brielle.jpg'
 
-  const spreadFivSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/SPREADS-5.jpg'
-  const spreadFivSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/SPREADS-5.jpg'
-  const spreadFivSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/SPREADS-5.jpg'
-  const spreadFivSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/SPREADS-5.jpg'
+  const belgiqueSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/Belgique.jpg'
+  const belgiqueSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/Belgique.jpg'
+  const belgiqueSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/Belgique.jpg'
+  const belgiqueSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/Belgique.jpg'
 
-  const spreadAnnaSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/anna_spread.png'
-  const spreadAnnaMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/anna_spread.png'
-  const spreadAnnaLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/anna_spread.png'
-  const spreadAnnaXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/anna_spread.png'
-
-  const spreadAntoinnetteSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/antoinnette_spread.png'
-  const spreadAntoinnetteMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/antoinnette_spread.png'
-  const spreadAntoinnetteLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/antoinnette_spread.png'
-  const spreadAntoinnetteXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/antoinnette_spread.png'
-
-  const spreadAzizaSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/aziza_spread.png'
-  const spreadAzizaMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/aziza_spread.png'
-  const spreadAzizaLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/aziza_spread.png'
-  const spreadAzizaXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/aziza_spread.png'
-
-  const spreadAlinaSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/alina_spread.png'
-  const spreadAlinaMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/alina_spread.png'
-  const spreadAlinaLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/alina_spread.png'
-  const spreadAlinaXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/alina_spread.png'
+  const brooklynSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/Brooklyn.jpg'
+  const brooklynSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/Brooklyn.jpg'
+  const brooklynSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/Brooklyn.jpg'
+  const brooklynSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/Brooklyn.jpg'
 
   return (
     <div className='pageBody'>
@@ -67,8 +53,8 @@ function Gallery() {
           <div className='notes__inner__image'>
             <img
               className=''
-              src='https://ik.imagekit.io/r596hampx/anna_spread.png'
-              srcSet={`${spreadAnnaSmall} 600w, ${spreadAnnaMed} 800w, ${spreadAnnaLarge} 1200w,  ${spreadAnnaXlarge} 1600w`}
+              src='https://ik.imagekit.io/r596hampx/Belgique.png'
+              srcSet={`${belgiqueSizeSmall} 600w, ${belgiqueSizeMed} 800w, ${belgiqueSizeLarge} 1200w,  ${belgiqueSizeXlarge} 1600w`}
               alt=''
             />
           </div>
@@ -77,8 +63,8 @@ function Gallery() {
           <div className='notes__inner__image'>
             <img
               className=''
-              src='https://ik.imagekit.io/r596hampx/antoinnette_spread.png'
-              srcSet={`${spreadAntoinnetteSmall} 600w, ${spreadAntoinnetteMed} 800w, ${spreadAntoinnetteLarge} 1200w,  ${spreadAntoinnetteXlarge} 1600w`}
+              src='https://ik.imagekit.io/r596hampx/Blossom_XZ0uU7jLp.jpg'
+              srcSet={`${blossomSizeSmall} 600w, ${blossomSizeMed} 800w, ${blossomSizeLarge} 1200w,  ${blossomSizeXlarge} 1600w`}
               alt=''
             />
           </div>
@@ -87,8 +73,8 @@ function Gallery() {
           <div className='notes__inner__image'>
             <img
               className=''
-              src='https://ik.imagekit.io/r596hampx/aziza_spread.png'
-              srcSet={`${spreadAzizaSmall} 600w, ${spreadAzizaMed} 800w, ${spreadAzizaLarge} 1200w,  ${spreadAzizaXlarge} 1600w`}
+              src='https://ik.imagekit.io/r596hampx/Blake.png'
+              srcSet={`${blakeSizeSmall} 600w, ${blakeSizeMed} 800w, ${blakeSizeLarge} 1200w,  ${blakeSizeXlarge} 1600w`}
               alt=''
             />
           </div>
@@ -97,8 +83,8 @@ function Gallery() {
           <div className='notes__inner__image'>
             <img
               className=''
-              src='https://ik.imagekit.io/r596hampx/alina_spread.png'
-              srcSet={`${spreadAlinaSmall} 600w, ${spreadAlinaMed} 800w, ${spreadAlinaLarge} 1200w,  ${spreadAlinaXlarge} 1600w`}
+              src='https://ik.imagekit.io/r596hampx/Bellarose.png'
+              srcSet={`${bellaroseSizeSmall} 600w, ${bellaroseSizeMed} 800w, ${bellaroseSizeLarge} 1200w,  ${bellaroseSizeXlarge} 1600w`}
               alt=''
             />
           </div>
@@ -107,8 +93,8 @@ function Gallery() {
           <div className='notes__inner__image'>
             <img
               className=''
-              src='https://ik.imagekit.io/r596hampx/SPREADS-2.jpg'
-              srcSet={`${spreadTwoSizeSmall} 600w, ${spreadTwoSizeMed} 800w, ${spreadTwoSizeLarge} 1200w,  ${spreadTwoSizeXlarge} 1600w`}
+              src='https://ik.imagekit.io/r596hampx/Brooklyn.jpg'
+              srcSet={`${brooklynSizeSmall} 600w, ${brooklynSizeMed} 800w, ${brooklynSizeLarge} 1200w,  ${brooklynSizeXlarge} 1600w`}
               alt=''
             />
           </div>
@@ -117,44 +103,17 @@ function Gallery() {
           <div className='notes__inner__image'>
             <img
               className=''
-              src='https://ik.imagekit.io/r596hampx/SPREADS-1.jpg'
-              srcSet={`${spreadOneSizeSmall} 600w, ${spreadOneSizeMed} 800w, ${spreadOneSizeLarge} 1200w,  ${spreadOneSizeXlarge} 1600w`}
+              src='https://ik.imagekit.io/r596hampx/Brielle.jpg'
+              srcSet={`${brielleSizeSmall} 600w, ${brielleSizeMed} 800w, ${brielleSizeLarge} 1200w,  ${brielleSizeXlarge} 1600w`}
               alt=''
             />
           </div>
         </div>
-        <div className='row galleryRow'>
-          <div className='notes__inner__image'>
-            <img
-              className=''
-              src='https://ik.imagekit.io/r596hampx/SPREADS-3.jpg'
-              srcSet={`${spreadThrSizeSmall} 600w, ${spreadThrSizeMed} 800w, ${spreadThrSizeLarge} 1200w,  ${spreadThrSizeXlarge} 1600w`}
-              alt=''
-            />
-          </div>
-        </div>
-        <div className='row galleryRow'>
-          <div className='notes__inner__image'>
-            <img
-              className=''
-              src='https://ik.imagekit.io/r596hampx/SPREADS-4.jpg'
-              srcSet={`${spreadFourSizeSmall} 600w, ${spreadFourSizeMed} 800w, ${spreadFourSizeLarge} 1200w,  ${spreadFourSizeXlarge} 1600w`}
-              alt=''
-            />
-          </div>
-        </div>
-        <div className='row galleryRow'>
-          <div className='notes__inner__image'>
-            <img
-              className=''
-              src='https://ik.imagekit.io/r596hampx/SPREADS-5.jpg'
-              srcSet={`${spreadFivSizeSmall} 600w, ${spreadFivSizeMed} 800w, ${spreadFivSizeLarge} 1200w,  ${spreadFivSizeXlarge} 1600w`}
-              alt=''
-            />
-          </div>
-        </div>
-        <div className='row'>
-        <div className='collectionBox col-md-4 col-sm-12'>
+
+        {<SwiperGallery />}
+
+        <div className='row lookbookRow'>
+          <div className='collectionBox col-md-4 col-sm-12'>
             <div className='lookbookTitle'>SPRING | SUMMER '24</div>
             <div className='lookbookPDF'>
               <a target='_blank' href='/images/springSummerLookbook24.pdf'>
