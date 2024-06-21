@@ -264,6 +264,9 @@
 .containerContact {
   width: 100%;
 }
+.italicStyle {
+  font-style: italic;
+}
 .btnSubmit {
   background-color: #181818;
   border: 1px outset #fff;

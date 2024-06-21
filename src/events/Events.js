@@ -5,18 +5,18 @@ const Events = () => {
   return (
     <div className='pageBody'>
       <div className='container'>
-        <a href='https://www.nationalbridalmarket.com/' className='eventLink' target='_blank' rel='noreferrer'>
+        <a href='https://onefinedaybridalmarket.com/' className='eventLink' target='_blank' rel='noreferrer'>
           <div className="row">
           <div className="col">
-              <span className='eventTitle'>National Bridal Market - Chicago<br></br></span>
-              <span className='eventTime'>3/17-3/18: 9 am - 6 pm || 3/19: 9 am - 3 pm<br></br></span>
-              <span className='eventLocation'>222 Merchandise Mart Plaza<br></br></span>
-              <span className='eventLocation'>7th Floor Market Suites<br></br></span>
-              <span className='eventCity'>Chicago, IL 60654<br></br></span>
+              <span className='eventTitle'>One Fine Day Bridal Market - NY<br></br></span>
+              <span className='eventTime'>10/8-10/9: 9 am - 5 pm || 10/10: 9 am - 4 pm<br></br></span>
+              <span className='eventLocation'>Canoe Studios<br></br></span>
+              <span className='eventLocation'>601 W 25th St<br></br></span>
+              <span className='eventCity'>New York, NY 10001<br></br></span>
             </div>
             <div className='col-4 eventDate'>
-              <span className='eventTitle'>BOOTH #2081</span><br />
-              <span className='eventTime'>MAR 17-19th</span>
+              <span className='eventTitle'>BOOTH A8</span><br />
+              <span className='eventTime'>OCT 8th-10th</span>
             </div>
           </div>
         </a>
