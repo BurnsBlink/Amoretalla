@@ -28,12 +28,12 @@ const ContactForm = () => {
           <div className='col-md-8 col-sm-12'>
             <form ref={form} onSubmit={sendEmail}>
               <div className='form-group'>
-                <label htmlFor='firstName' className='form-text'>First Name</label>
-                <input type='text' name='firstName' className='form-control' />
+                <label htmlFor='fullName' className='form-text'>Name</label>
+                <input type='text' name='fullName' className='form-control' />
               </div>
               <div className='form-group'>
-                <label htmlFor='lastName' className='form-text'>Last Name</label>
-                <input type='text' name='lastName' className='form-control' />
+                <label htmlFor='companyName' className='form-text'>Company <span className='italicStyle'>(Optional)</span></label>
+                <input type='text' name='companyName' className='form-control' />
               </div>
               <div className='form-group'>
                 <label htmlFor='phoneNumber' className='form-text'>Phone Number</label>
@@ -50,10 +50,6 @@ const ContactForm = () => {
               <div className='form-group'>
                 <label htmlFor='customerEmail' className='form-text'>Email address</label>
                 <input type='email' name='email' className='form-control' aria-describedby='emailHelp' />
-              </div>
-              <div className='form-group'>
-                <label htmlFor='weddingDate' className='form-text'>Wedding Date (if known)</label>
-                <input type='date' name='weddingDate' className='form-control wedding-date' aria-describedby='date' />
               </div>
               <div className='form-group'>
                 <label htmlFor='message' className='form-text'>Message</label>
