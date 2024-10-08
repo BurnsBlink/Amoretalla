@@ -293,19 +293,6 @@ function Gallery() {
             </div>
           </div>
           <div className='collectionBox col-md-4 col-sm-12'>
-            <div className='lookbookTitle'>SPRING | SUMMER '24</div>
-            <div className='lookbookPDF'>
-              <a target='_blank' href='/images/springSummerLookbook24.pdf'>
-                <img
-                  className='lookbookPreview'
-                  src='https://ik.imagekit.io/r596hampx/AMORETALLA_LOOKBOOK_2024_SPREADS_AdDFSTA66.jpg'
-                  srcSet={`${sprSumSizeSmall} 600w, ${sprSumSizeMed} 800w`}
-                  alt=''
-                />
-              </a>
-            </div>
-          </div>
-          <div className='collectionBox col-md-4 col-sm-12'>
             <div className='lookbookTitle'>THE <img className='alogo' src='/images/blacklogo.png' alt='amoretalla logo'></img> COLLECTION '24</div>
             <div className='lookbookPDF'>
               <a target='_blank' href='/images/lookbook24.pdf'>
@@ -318,10 +305,7 @@ function Gallery() {
               </a>
             </div>
           </div>
-        </div>
-
-        <div className='row lookbookRow'>
-          <div className='collectionBox col-md-4 col-sm-12'>
+          <div className='col-md-4 col-sm-12'>
             <div className='lookbookTitle'>THE CUSTOM COLLECTION</div>
             <div className='lookbookPDF'>
               <button className='galleryBtn' onClick={() => setOpen(true)} target='_blank'>
