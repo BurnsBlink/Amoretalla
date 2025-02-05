@@ -109,7 +109,7 @@ function Main() {
           alt=''
         />
         <div className='middleBtn'>
-          <a href='mailto:g.atallah@amoretalla.com' className='text'>Reserve Appointment</a>
+          <a href='mailto:info@amoretalla.com' className='text'>Reserve Appointment</a>
         </div>
       </div>
 

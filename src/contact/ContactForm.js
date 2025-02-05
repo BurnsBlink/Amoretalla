@@ -5,6 +5,10 @@ import '../App.css';
 import 'react-phone-number-input/style.css'
 
 const ContactForm = () => {
+  const bizCardSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/stanleyBizCard.png'
+  const bizCardSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/stanleyBizCard.png'
+  const bizCardSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/stanleyBizCard.png'
+  const bizCardSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/stanleyBizCard.png'
   const [value, setValue] = useState('+1 ')
   const form = useRef();
 
@@ -25,7 +29,7 @@ const ContactForm = () => {
     <div className='pageBody'>
       <div className='container containerContact'>
         <div className='row'>
-          <div className='col-md-8 col-sm-12'>
+          <div className='col-md-7 col-sm-12'>
             <form ref={form} onSubmit={sendEmail}>
               <div className='form-group'>
                 <label htmlFor='fullName' className='form-text'>Name</label>
@@ -58,12 +62,28 @@ const ContactForm = () => {
               <button type='submit' value='Send' className='btn btnSubmit'>SUBMIT</button>
             </form>
           </div>
-          <div className='col-md-4 col-sm-12 contactInfo'>
-            <div><a className='emailLink' href='mailto:g.atallah@amoretalla.com'>✉ g.atallah@amoretalla.com</a></div>
-            <div><a className='phoneLink' href='tel:603-685-8478'>☏ 603-685-8478</a></div>
+          <div className='col-md-5 col-sm-12'>
+            <div className='row justify-content-center'>
+              <div className='col-md-12 col-sm-12 contactInfo'>
+                <div><a className='emailLink' href='mailto:info@amoretalla.com'>✉ info@amoretalla.com</a></div>
+                <div><a className='phoneLink' href='tel:603-685-8478'>☏ 603-685-8478</a></div>
 
-            <div className='addressBlock'><a className='address' href='http://maps.google.com/?q=8 Stiles Rd, Salem, New Hampshire, 03079'>8 Stiles Road<br></br>
-            Salem, NH 03079</a></div>
+                <div className='addressBlock'><a className='address' href='http://maps.google.com/?q=8 Stiles Rd, Salem, New Hampshire, 03079'>8 Stiles Road<br></br>
+                  Salem, NH 03079</a></div>
+              </div>
+            </div>
+            <div className='row justify-content-center'>
+              <div className='col-md-12'>
+                <a target='_blank' rel='noreferrer' href='https://www.lavenderlacellc.com/contact'>
+                  <img
+                    className='bizCard'
+                    src='https://ik.imagekit.io/r596hampx/stanleyBizCard.png'
+                    srcSet={`${bizCardSizeSmall} 600w, ${bizCardSizeMed} 800w, ${bizCardSizeLarge} 1200w,  ${bizCardSizeXlarge} 1600w`}
+                    alt=''
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
