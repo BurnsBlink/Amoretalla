@@ -5,10 +5,10 @@ import '../App.css';
 import 'react-phone-number-input/style.css'
 
 const ContactForm = () => {
-  const bizCardSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/stanleyBizCard.png'
-  const bizCardSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/stanleyBizCard.png'
-  const bizCardSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/stanleyBizCard.png'
-  const bizCardSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/stanleyBizCard.png'
+  const bizCardSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/aubrey.png'
+  const bizCardSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/aubrey.png'
+  const bizCardSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/aubrey.png'
+  const bizCardSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/aubrey.png'
   const [value, setValue] = useState('+1 ')
   const form = useRef();
 
@@ -74,10 +74,10 @@ const ContactForm = () => {
             </div>
             <div className='row justify-content-center'>
               <div className='col-md-12'>
-                <a target='_blank' rel='noreferrer' href='https://www.lavenderlacellc.com/contact'>
+                <a target='_blank' rel='noreferrer' href='mailto:arbridalsales@gmail.com'>
                   <img
                     className='bizCard'
-                    src='https://ik.imagekit.io/r596hampx/stanleyBizCard.png'
+                    src='https://ik.imagekit.io/r596hampx/aubrey.png'
                     srcSet={`${bizCardSizeSmall} 600w, ${bizCardSizeMed} 800w, ${bizCardSizeLarge} 1200w,  ${bizCardSizeXlarge} 1600w`}
                     alt=''
                   />
