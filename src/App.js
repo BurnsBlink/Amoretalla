@@ -65,12 +65,12 @@ function App() {
           />
         </NavLink>
         <div className="subLinks">
-          {/* <NavLink className="subLink" to="/collection" aria-label="Collection">
+          <NavLink className="subLink" to="/collection" aria-label="Collection">
             Collection
-          </NavLink> */}
-          <NavLink className="subLink" to="/gallery" aria-label="Gallery">
-            Gallery
           </NavLink>
+          {/* <NavLink className="subLink" to="/gallery" aria-label="Gallery">
+            Gallery
+          </NavLink> */}
           <NavLink className="subLink" to="/events" aria-label="Events">
             Events
           </NavLink>

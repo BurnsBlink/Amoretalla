@@ -2,7 +2,12 @@
 import React from 'react';
 import '../App.css';
 
-const getEventImageUrl = (baseUrl, width = 400) => `${baseUrl}?tr=w-${width},h-${width},q-80`;
+const getEventImageUrl = (baseUrl, width = 800) => {
+  const fileIdMatch = baseUrl.match(/id=([^&]+)/) || baseUrl.match(/\/d\/([^/]+)/);
+  const fileId = fileIdMatch ? fileIdMatch[1] : baseUrl.split('/')[5]?.split('&')[0];
+  const googleUrl = `https://drive.google.com/thumbnail?id=${fileId}&sz=w${width}`;
+  return `${process.env.REACT_APP_PROXY_URL}/api/proxy-image?url=${encodeURIComponent(googleUrl)}`;
+};
 
 const EventItem = ({ event }) => (
   <a
@@ -41,7 +46,7 @@ const Events = () => {
       city: 'Chicago, IL 60654',
       booth: 'Booth #1094',
       link: 'https://www.nationalbridalmarket.com/',
-      image: 'https://ik.imagekit.io/r596hampx/eventOne.jpg',
+      image: 'https://drive.google.com/thumbnail?id=1RqN57kPQqdEIN67hpQIdppkk4iSa--LA',
     },
     {
       title: 'New York Bridal Fashion Week',
@@ -50,7 +55,7 @@ const Events = () => {
       city: 'Manhattan, NY 10016',
       booth: 'Showroom 5B',
       link: 'https://fashionweekonline.com/bridal',
-      image: 'https://ik.imagekit.io/r596hampx/eventTwo.jpg',
+      image: 'https://drive.google.com/thumbnail?id=1xA43mrUV6bznrmHrBxw2P8_qjc3BSpCY',
     },
   ];
 
