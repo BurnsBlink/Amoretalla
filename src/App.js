@@ -27,8 +27,8 @@ function App() {
             <NavLink className="mobileSubLink" onClick={closeMenu} to="/" aria-label="Home">
               Home
             </NavLink>
-            <NavLink className="mobileSubLink" onClick={closeMenu} to="/collection" aria-label="Collection">
-              Collection
+            <NavLink className="mobileSubLink" onClick={closeMenu} to="/collections" aria-label="Collections">
+              Collections
             </NavLink>
             <NavLink className="mobileSubLink" onClick={closeMenu} to="/gallery" aria-label="Gallery">
               Gallery
@@ -65,12 +65,12 @@ function App() {
           />
         </NavLink>
         <div className="subLinks">
-          {/* <NavLink className="subLink" to="/collection" aria-label="Collection">
-            Collection
-          </NavLink> */}
-          <NavLink className="subLink" to="/gallery" aria-label="Gallery">
-            Gallery
+          <NavLink className="subLink" to="/collections" aria-label="Collections">
+            Collections
           </NavLink>
+          {/* <NavLink className="subLink" to="/gallery" aria-label="Gallery">
+            Gallery
+          </NavLink> */}
           <NavLink className="subLink" to="/events" aria-label="Events">
             Events
           </NavLink>
@@ -87,7 +87,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="collection" element={<Collection />} />
+        <Route path="collections" element={<Collection />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="events" element={<Events />} />
         <Route path="howItWorks" element={<HowItWorks />} />
