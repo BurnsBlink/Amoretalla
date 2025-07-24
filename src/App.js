@@ -73,9 +73,9 @@ function App() {
           <NavLink className="subLink" to="/events" aria-label="Events">
             Events
           </NavLink>
-          <NavLink className="subLink" to="/howItWorks" aria-label="How It Works">
+          {/* <NavLink className="subLink" to="/howItWorks" aria-label="How It Works">
             How It Works
-          </NavLink>
+          </NavLink> */}
           <NavLink className="subLink" to="/about" aria-label="About Us">
             About Us
           </NavLink>
