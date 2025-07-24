@@ -7,6 +7,7 @@ export const products = [
       '1nYvIfS8k6qB1hyIDT6GhaDprQLO17cc9',
       '1idVLrEK91YFmzZ5ZtyKARM0jmGUUk0Mr',
       '12Kz2MLpQp9MEYo2IKzRZkF9G_8SNA-ku',
+      '1-cj-u7AM6J15GLvTZ86aOUrv275gHJVs',
     ],
     description: 'A banded strapless Mikado dress style with plunging detail at center front. Features a center slit, back-channel mesh detailing and removable large bow.',
     collection: 'springSummer25',
@@ -94,7 +95,6 @@ export const products = [
     mainImage: '1I3XKi1G7gdpn1Q1Kp7nQGk6M1KEfvgPu',
     images: [
       '1I3XKi1G7gdpn1Q1Kp7nQGk6M1KEfvgPu',
-      '1-cj-u7AM6J15GLvTZ86aOUrv275gHJVs',
       '1JxUm-L17rqF2MwJXyg3ZWf7PPvFu0U3-',
     ],
     description: 'A three-dimensional cascade floral lace appliqué Satin organza ball gown, with Col Bateau neckline and detachable floral neck band.',
