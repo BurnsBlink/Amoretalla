@@ -1,6 +1,5 @@
-// src/App.js
 import React, { useState } from 'react';
-import { NavLink, Route, Routes } from 'react-router-dom';
+import { NavLink, Route, Routes, Navigate } from 'react-router-dom'; // Added Navigate for redirection
 import Hamburger from 'hamburger-react';
 import './App.css';
 import About from './about/About';
@@ -87,13 +86,14 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="collections" element={<Collection />} />
-        <Route path="gallery" element={<Gallery />} />
-        <Route path="events" element={<Events />} />
-        <Route path="howItWorks" element={<HowItWorks />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<ContactForm />} />
-        <Route path="product/:id" element={<Product />} />
+        <Route path="/collections" element={<Navigate to="/collections/springSummer25" />} /> {/* Default to first collection */}
+        <Route path="/collections/:collection" element={<Collection />} /> {/* Dynamic route */}
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/howItWorks" element={<HowItWorks />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<ContactForm />} />
+        <Route path="/product/:name" element={<Product />} />
       </Routes>
       <Footer />
     </div>

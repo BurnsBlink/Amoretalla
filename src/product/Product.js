@@ -4,12 +4,12 @@ import '../App.css';
 import { products } from './Data';
 
 function Product() {
-  const { id } = useParams();
+  const { name } = useParams(); // Changed from { id } to { name }
   const [mainImage, setMainImage] = useState('');
   let product;
 
   try {
-    product = products.find((p) => p.id === parseInt(id));
+    product = products.find((p) => p.name.toLowerCase() === name.toLowerCase()); // Changed to match name, case-insensitive
     if (!mainImage && product) setMainImage(product.mainImage); // Sets the ID initially
   } catch (error) {
     console.error('Error finding product:', error);

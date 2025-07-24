@@ -13,18 +13,56 @@ export const products = [
   },
   {
     id: 2,
-    name: 'Belgique',
-    mainImage: '1Barlvm_0RhcSk5DxGLhRzwcBz4hIiBrh',
+    name: 'Billie',
+    mainImage: '1XNk8uLe2o5bvGzbCqdt1QNrM7arx-gg9',
     images: [
-      '1Barlvm_0RhcSk5DxGLhRzwcBz4hIiBrh',
-      '13bCKGCrDNLrqbtxzNMgLklRA-uQbEfX1',
-      '1UlUYRaH5wr03GlErHUZlRrkjdm0RnHFF',
+      '1XNk8uLe2o5bvGzbCqdt1QNrM7arx-gg9',
+      '1l0Op63YQ7MIPySV2neHuENvzgoo055Jw',
+      '11tCUVl-_6SN-SzbQjNQGEiS1jl7yd3et',
+      '1Pz_KTn-Y09Yny-Nyz94kV2ObKwGo49ix',
     ],
-    description: 'A mermaid style that features a corset-boning bodice. Embroidered, sheer styling with beaded crystal droplets, ostrich-feather bottom, and removable fitted sleeve',
+    description: 'Satin Jasmine floral appliqué on Chantilly lace with sparkle. Figure flattering A-line silhouette with detachable Satin faced organza and a cascading peplum train.',
     collection: 'springSummer25',
   },
   {
     id: 3,
+    name: 'Blake',
+    mainImage: '1qTpwyvX6JEpEZC_fGrO3tF4Gwn2SdUnJ',
+    images: [
+      // '122GyVXGSb5YTk_hjT53q6J91zZL-4Gsv',
+      // '1VJ2GpVI_SATLSKAWzWjUg1yehM_Tjh37',
+      '1qTpwyvX6JEpEZC_fGrO3tF4Gwn2SdUnJ',
+      '1FElAwPXL_K0vBFApnvuwc_qXSpj5wvFD',
+    ],
+    description: 'A strapless Mikado mermaid style. Three-dimensional floral appliqués at bust line and train, with sheer corset back and contrasting boning channels.',
+    collection: 'springSummer25',
+  },
+  {
+    id: 4,
+    name: 'Blossom',
+    mainImage: '15HSj3bKQi7uN3r9b47gq5J9o5P-3GQxL',
+    images: [
+      '15HSj3bKQi7uN3r9b47gq5J9o5P-3GQxL',
+      '1CAzylV4Wtq_s--dTpRFnypTOLV8dS0wh',
+      '1OrznOZY0qcdHtTouKeTURZ_0iF9nQ023',
+    ],
+    description: 'This convertible strapless A-line silhouette is beaded with a cherry blossom floral lace. Features a removable halter top, taffeta train and fitted removable sleeves. Three looks in one.',
+    collection: 'springSummer25',
+  },
+  {
+    id: 5,
+    name: 'Brielle',
+    mainImage: '1mAjlmeQyCdlglNlmha-T_-s5JkmpYPy6',
+    images: [
+      '1mAjlmeQyCdlglNlmha-T_-s5JkmpYPy6',
+      '1alPnn2H0SAZhJRlPd9rI7fAAWlYrfUWN',
+      '1ajCEYXrACbHIPxa5_kMk8P62g9EGbxJf',
+    ],
+    description: 'Satin D\'Hauteur pleated high-waist ball gown features a high side slit and pocket. Long sleeve styling with stand collar, lace top and pronounced satin 3-dimensional floral appliqué.',
+    collection: 'springSummer25',
+  },
+  {
+    id: 6,
     name: 'Bellarose',
     mainImage: '1GTtnNeX34t_iGi7wRX5yT0fC8yxWKMp9',
     images: [
@@ -37,45 +75,21 @@ export const products = [
     collection: 'springSummer25',
   },
   {
-    id: 4,
-    name: 'Billie',
-    mainImage: '1fWHfN8rpOJ8l9SUIEMYGx9FCEtLkRkvD',
-    images: [
-      '1l0Op63YQ7MIPySV2neHuENvzgoo055Jw',
-      '11tCUVl-_6SN-SzbQjNQGEiS1jl7yd3et',
-      '1Pz_KTn-Y09Yny-Nyz94kV2ObKwGo49ix',
-      '1XNk8uLe2o5bvGzbCqdt1QNrM7arx-gg9',
-    ],
-    description: 'Satin Jasmine floral appliqué on Chantilly lace with sparkle. Figure flattering A-line silhouette with detachable Satin faced organza and a cascading peplum train.',
-    collection: 'springSummer25',
-  },
-  {
-    id: 5,
-    name: 'Blake',
-    mainImage: '122GyVXGSb5YTk_hjT53q6J91zZL-4Gsv',
-    images: [
-      '122GyVXGSb5YTk_hjT53q6J91zZL-4Gsv',
-      '1VJ2GpVI_SATLSKAWzWjUg1yehM_Tjh37',
-      '1FElAwPXL_K0vBFApnvuwc_qXSpj5wvFD',
-      '1qTpwyvX6JEpEZC_fGrO3tF4Gwn2SdUnJ',
-    ],
-    description: 'A strapless Mikado mermaid style. Three-dimensional floral appliqués at bust line and train, with sheer corset back and contrasting boning channels.',
-    collection: 'springSummer25',
-  },
-  {
-    id: 6,
-    name: 'Blossom',
-    mainImage: '15HSj3bKQi7uN3r9b47gq5J9o5P-3GQxL',
-    images: [
-      '15HSj3bKQi7uN3r9b47gq5J9o5P-3GQxL',
-      '1CAzylV4Wtq_s--dTpRFnypTOLV8dS0wh',
-      '1OrznOZY0qcdHtTouKeTURZ_0iF9nQ023',
-    ],
-    description: 'This convertible strapless A-line silhouette is beaded with a cherry blossom floral lace. Features a removable halter top, taffeta train and fitted removable sleeves. Three looks in one.',
-    collection: 'springSummer25',
-  },
-  {
     id: 7,
+    name: 'Belgique',
+    mainImage: '1Barlvm_0RhcSk5DxGLhRzwcBz4hIiBrh',
+    images: [
+      '1Barlvm_0RhcSk5DxGLhRzwcBz4hIiBrh',
+      '13bCKGCrDNLrqbtxzNMgLklRA-uQbEfX1',
+      '1UlUYRaH5wr03GlErHUZlRrkjdm0RnHFF',
+    ],
+    description: 'A mermaid style that features a corset-boning bodice. Embroidered, sheer styling with beaded crystal droplets, ostrich-feather bottom, and removable fitted sleeve',
+    collection: 'springSummer25',
+  },
+
+
+  {
+    id: 8,
     name: 'Bowie',
     mainImage: '1I3XKi1G7gdpn1Q1Kp7nQGk6M1KEfvgPu',
     images: [
@@ -87,7 +101,7 @@ export const products = [
     collection: 'springSummer25',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Bradie',
     mainImage: '1BdlO6driG2y235tIbxIhPiEbxvqoAYlI',
     images: [
@@ -99,7 +113,7 @@ export const products = [
     collection: 'springSummer25',
   },
   {
-    id: 9,
+    id: 10,
     name: 'Brenna',
     mainImage: '1mVRcoqRA2TkJ1r_PyqddO2w10tQi4Ge0',
     images: [
@@ -110,18 +124,7 @@ export const products = [
     description: 'Corded floral lace on a boat neckline style dress. Features a one shoulder flower detail and a detachable cape',
     collection: 'springSummer25',
   },
-  {
-    id: 10,
-    name: 'Brielle',
-    mainImage: '1mAjlmeQyCdlglNlmha-T_-s5JkmpYPy6',
-    images: [
-      '1mAjlmeQyCdlglNlmha-T_-s5JkmpYPy6',
-      '1alPnn2H0SAZhJRlPd9rI7fAAWlYrfUWN',
-      '1ajCEYXrACbHIPxa5_kMk8P62g9EGbxJf',
-    ],
-    description: 'Satin D\'Hauteur pleated high-waist ball gown features a high side slit and pocket. Long sleeve styling with stand collar, lace top and pronounced satin 3-dimensional floral appliqué.',
-    collection: 'springSummer25',
-  },
+
   {
     id: 11,
     name: 'Brinkley',
@@ -155,5 +158,40 @@ export const products = [
     ],
     description: 'A Mikado halter-top style with figure-flattering mermaid shape. Features crossed crystal channels at neckline and a cathedral length train.',
     collection: 'springSummer25',
+  },
+  {
+    id: 14,
+    name: 'Adele',
+    mainImage: '1xuv0W_YaSs5MzOkuCV9DQqoE9XqYE1-H',
+    images: [
+      '1xuv0W_YaSs5MzOkuCV9DQqoE9XqYE1-H',
+      '1_rfvwoisPBmmiN1VJhTgfgOoGhrZzh4P',
+      '19FciFAKt0-lR2CsvjHMPXMIVbhLLuQ_4',
+    ],
+    description: 'A convertible style with a full silk chiffon detachable skirt adorned with ostrich feathers. Ruffled neckline and exposed boning at the waistline.',
+    collection: 'springSummer24',
+  },
+  {
+    id: 15,
+    name: 'Anna',
+    mainImage: '1AivRpLY4PKrHlLAACEdJUEW0ekJ_vmQD',
+    images: [
+      '1AivRpLY4PKrHlLAACEdJUEW0ekJ_vmQD',
+      '1b2fzBylwBB9rg-ooPqKjm_rkkUNDYrW5',
+      '1ww0ukXx9z5OII44OekR5BgWDcwyy_jSZ',
+    ],
+    description: 'A classic Aline Satin D\'Hauteur dress with tulle halter top, embrodery, pearl lace details and Swarovski crystal stones. Sheer organdy cape is fully removable.',
+    collection: 'springSummer24',
+  },
+  {
+    id: 16,
+    name: 'Antoinette',
+    mainImage: '1y66yCuW6LdVskUaN1rFnPZFKg9aVXg-n',
+    images: [
+      '1y66yCuW6LdVskUaN1rFnPZFKg9aVXg-n',
+      '1TLyXRsMBsqCavFJWVIV_1YnarTWsF14H',
+    ],
+    description: 'A classic white Satin fit and flare gown with princess seamed styling. Flattering ceremonial dress with peaked bra cup detail and optional rhinestone pendant centered at the bustline.',
+    collection: 'springSummer24',
   }
 ];
