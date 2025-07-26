@@ -227,7 +227,6 @@ export const products = [
     images: [
       '1bLY4YhEIpPRU1zVjQU_xZ4Zsa3-logK9',
       '1Zo4WQDSklReoeRz8tdmZbJuk77BV_IDZ',
-      '1QKcsZcoszk38-W3Yh03fvQ4L1k4cuvLe',
       '1d6AlYNm4hqBJ-UC_3CfPFyQ_PN59xU1s',
       '1Oq_6j5s6jwG9zhDQ2s2tKfrLINZprFN0',
     ],
@@ -241,6 +240,7 @@ export const products = [
     images: [
       '1A2r1F-1AK_CAsErZHnkUKWp8xoyomXmM',
       '1yyNMYGh2mlVZcEDRHP26J7vtAQDnVGcf',
+      '1QKcsZcoszk38-W3Yh03fvQ4L1k4cuvLe',
       '1HQq7WybXr4BJ9joIh65JzVMLiXXElBQs',
       '14KrTDPnPuo3_LjvKch7F_lUZSb3RG5YG',
     ],

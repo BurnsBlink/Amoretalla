@@ -60,7 +60,7 @@ function Main() {
           <h1 className="col mainTitleText">DESIGNS FOR THE MODERN BRIDE</h1>
         </div>
         <div className="row">
-          <div className="col mainSubtitleText">{longForm.mainPage.description}</div>
+          <div className="col subtitleText">{longForm.mainPage.description}</div>
         </div>
         {/* <div className="row">
           <Link to="/collection" className="view-collection-btn">
@@ -74,7 +74,7 @@ function Main() {
           <h4 className="col mainTitleText">TESTIMONIALS</h4>
         </div>
         <div className="row">
-          <div className="col mainSubtitleText">{longForm.wedCompanyWeddingWear.quote}</div>
+          <div className="col subtitleText">{longForm.wedCompanyWeddingWear.quote}</div>
         </div>
         <div className="row">
           <div className="col mainFooterText">-{longForm.wedCompanyWeddingWear.author}</div>

@@ -143,6 +143,10 @@
   color: var(--text-dark);
   text-align: left;
 }
+.subtitleText {
+  margin-bottom: 25px;
+  opacity: .7;
+}
 .mainSubtitleText {
   margin-bottom: 25px;
   text-decoration: none !important;
