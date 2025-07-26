@@ -7,11 +7,12 @@ function Collection() {
   const { collection: urlCollection } = useParams();
   const location = useLocation();
   const [selectedCollection, setSelectedCollection] = useState('springSummer25');
+  const [hoveredProductId, setHoveredProductId] = useState(null); // Track hovered product
 
   const collections = useMemo(() => [
+    'springSummer26',
     'springSummer25',
     'springSummer24',
-    // 'custom',
   ], []);
 
   useEffect(() => {
@@ -21,6 +22,7 @@ function Collection() {
   }, [urlCollection, location.pathname, collections]);
 
   const collectionTitles = {
+    springSummer26: 'SPRING | SUMMER \'26',
     springSummer25: 'SPRING | SUMMER \'25',
     springSummer24: 'SPRING | SUMMER \'24',
     custom: 'THE CUSTOM COLLECTION',
@@ -45,22 +47,22 @@ function Collection() {
           <h3 className="menu-title">Collections</h3>
           <ul className="menu-list">
             {collections.map((collection) => (
-            <li
-            key={collection}
-            className={`menu-item ${selectedCollection === collection ? 'active' : ''}`}
-            onClick={() => setSelectedCollection(collection)}
-            role="button"
-            tabIndex={0}
-            aria-current={selectedCollection === collection ? 'page' : undefined}
-            onKeyDown={(e) => e.key === 'Enter' && setSelectedCollection(collection)}
-          >
-            <Link
-              to={`/collections/${collection}`}
-              className={`custom-link ${selectedCollection === collection ? 'active' : ''}`}
-            >
-              {renderCollectionTitle(collection)}
-            </Link>
-          </li>
+              <li
+                key={collection}
+                className={`menu-item ${selectedCollection === collection ? 'active' : ''}`}
+                onClick={() => setSelectedCollection(collection)}
+                role="button"
+                tabIndex={0}
+                aria-current={selectedCollection === collection ? 'page' : undefined}
+                onKeyDown={(e) => e.key === 'Enter' && setSelectedCollection(collection)}
+              >
+                <Link
+                  to={`/collections/${collection}`}
+                  className={`custom-link ${selectedCollection === collection ? 'active' : ''}`}
+                >
+                  {renderCollectionTitle(collection)}
+                </Link>
+              </li>
             ))}
           </ul>
         </nav>
@@ -76,10 +78,16 @@ function Collection() {
                   aria-label={`View ${product.name}`}
                 >
                   <img
-                    src={getImageUrl(product.mainImage)}
+                    src={getImageUrl(
+                      hoveredProductId === product.id && product.images[1]
+                        ? product.images[1]
+                        : product.mainImage
+                    )}
                     alt={`${product.name} dress`}
                     className="collection-image"
                     loading="lazy"
+                    onMouseEnter={() => setHoveredProductId(product.id)}
+                    onMouseLeave={() => setHoveredProductId(null)}
                   />
                   <h3 className="mainSubtitleText">{product.name}</h3>
                 </Link>
