@@ -249,7 +249,7 @@ export const products = [
   },
   {
     id: 21,
-    name: 'Colette',
+    name: 'Collette',
     mainImage: '1zrDPiLYN5nv2tDpg7AG9nB85a6IesDCx',
     images: [
       '1zrDPiLYN5nv2tDpg7AG9nB85a6IesDCx',
