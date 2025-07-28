@@ -203,7 +203,7 @@ export const products = [
       '1anIalg3EgXbZHTP8yahetHC3E92n43oT',
       '1RPMFI1VpJbbHEVVy3fgQJvbggkS9aA9W',
     ],
-    description: '',
+    description: 'Mikado Peplum Bustier with back fabric-covered buttons, front pearl detail and fit-and-flare skirt and back train. Option: Fit-and-flair Chantilly lace see-through skirt with scalloped-edge hem and train.',
     collection: 'springSummer26',
   },
   {
@@ -217,7 +217,7 @@ export const products = [
       '1KndUdetfRu4QcHmMN4AytXpxFkoQvEy_',
       '1Q-03vXVKqWMmqkQLS9PhyCujjaR2TzQX',
     ],
-    description: '',
+    description: 'Empire-waist princess fit-and-flare dress with shoulder strap and optional 3-dimensional floral vest and removable bow.',
     collection: 'springSummer26',
   },
   {
@@ -230,7 +230,7 @@ export const products = [
       '1d6AlYNm4hqBJ-UC_3CfPFyQ_PN59xU1s',
       '1Oq_6j5s6jwG9zhDQ2s2tKfrLINZprFN0',
     ],
-    description: '',
+    description: 'Organza Basque-waist dress with three-dimensional floral embroidery and Mikado empire waist ball gown skirt and boning details.',
     collection: 'springSummer26',
   },
   {
@@ -244,7 +244,7 @@ export const products = [
       '1HQq7WybXr4BJ9joIh65JzVMLiXXElBQs',
       '14KrTDPnPuo3_LjvKch7F_lUZSb3RG5YG',
     ],
-    description: '',
+    description: 'Chantilly lace, sheer long-sleeved Basque-waist short, slim dress with contrasting boning bodice featuring detailed scalloped bustline. Full and light ball gown overskirt with scalloped hem and train. ',
     collection: 'springSummer26',
   },
   {
@@ -257,7 +257,7 @@ export const products = [
       '1SghmVUwyNpfsN6xKFT3pL1WcxQFE5EAt',
       '1Jbs7oRY25RqyvffBA3S4C5c_-yAVXoxW',
     ],
-    description: '',
+    description: 'High neckline with banded collar fit-and-flare 3-dimensional floral Guipure lace and taffeta waistband with avant-garde bow and floor-length sash.',
     collection: 'springSummer26',
   },
 ];
