@@ -81,7 +81,6 @@ export const products = [
     images: [
       '1Barlvm_0RhcSk5DxGLhRzwcBz4hIiBrh',
       '13bCKGCrDNLrqbtxzNMgLklRA-uQbEfX1',
-      '1UlUYRaH5wr03GlErHUZlRrkjdm0RnHFF',
     ],
     description: 'A mermaid style that features a corset-boning bodice. Embroidered, sheer styling with beaded crystal droplets, ostrich-feather bottom, and removable fitted sleeve',
     collection: 'springSummer25',
@@ -223,9 +222,9 @@ export const products = [
   {
     id: 19,
     name: 'Chrishell',
-    mainImage: '1bLY4YhEIpPRU1zVjQU_xZ4Zsa3-logK9',
+    mainImage: '111zmHhsa4sqdPNTLd2P-Q_tGqfA_QTzo',
     images: [
-      '1bLY4YhEIpPRU1zVjQU_xZ4Zsa3-logK9',
+      '111zmHhsa4sqdPNTLd2P-Q_tGqfA_QTzo',
       '1Zo4WQDSklReoeRz8tdmZbJuk77BV_IDZ',
       '1d6AlYNm4hqBJ-UC_3CfPFyQ_PN59xU1s',
       '1Oq_6j5s6jwG9zhDQ2s2tKfrLINZprFN0',
