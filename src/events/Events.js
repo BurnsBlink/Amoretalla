@@ -40,15 +40,6 @@ const EventItem = ({ event }) => (
 const Events = () => {
   const events = [
     {
-      title: 'National Bridal Market',
-      date: '8/17 - 8/19',
-      location: '222 Merchandise Mart Plaza',
-      city: 'Chicago, IL 60654',
-      booth: 'Booth #1094',
-      link: 'https://www.nationalbridalmarket.com/',
-      image: 'https://drive.google.com/thumbnail?id=1RqN57kPQqdEIN67hpQIdppkk4iSa--LA',
-    },
-    {
       title: 'New York Bridal Fashion Week',
       date: '10/14 - 10/16',
       location: '417 5th Ave',

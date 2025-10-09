@@ -5,7 +5,7 @@ function About() {
   return (
     <div className='pageBody'>
       <div className='container'>
-        <img className='aboutUsProfileImg "col-md-8">' src='https://ik.imagekit.io/r596hampx/GabeProPic_xTeHgOctT.jpg' alt="" />
+        <img className='aboutUsProfileImg "col-md-8">' src='https://ik.imagekit.io/r596hampx/creator.jpg' alt="" />
         <h3>MEET THE DESIGNER</h3><br></br>
         <p>
           Gabe Atallah, principal of Amoretalla Couture, began his career working for the
@@ -40,9 +40,8 @@ function About() {
           to a short-and-sassy number ready to rock the after party. A single dress can offer up to three different looks.
         </p>
 
-        <div className='row'>
-          <h4 className='col mainTitleText'>PUBLICATIONS</h4>
-        </div>
+
+        <h3 className="aboutUsContent">PUBLICATIONS</h3><br></br>
         <div className='row'>
           <a className='pubLink' href='http://books.vowsmagazine.com/books/vngq/#p=39' target='_blank' rel='noreferrer'>VOWS MAGAZINE <br></br>OCTOBER 2023</a>
         </div>

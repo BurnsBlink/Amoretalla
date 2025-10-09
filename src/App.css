@@ -54,9 +54,8 @@
 .aboutUsProfileImg {
   float: right;
   margin: 5px;
-  max-height: 300px;
+  max-height: 325px;
   object-fit: cover;
-  width: 300px;
 }
 @media (max-width: 992px) {
   .aboutUsProfileImg {
@@ -134,14 +133,14 @@
   font-size: 28px;
   font-weight: 700;
   color: var(--text-dark);
-  text-align: left;
+  text-align: center;
 }
 .productTitleText {
   margin-bottom: 25px;
   font-size: 28px;
   font-weight: 700;
   color: var(--text-dark);
-  text-align: left;
+  text-align: center;
 }
 .subtitleText {
   margin-bottom: 25px;
@@ -294,44 +293,6 @@
   border: 1px solid #666666;
   padding: 4px;
 }
-/* HOW IT WORKS */
-.howItWorksText {
-  color: #000;
-  font-size: 2em;
-  font-weight: 800;
-  letter-spacing: 10px;
-  overflow-wrap: normal;
-}
-.middlePlacement {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.pageBodyHowItWorks {
-  padding-bottom: 8rem;
-}
-.hIWNumbers {
-  color: #000;
-  font-size: xx-large;
-  font-weight: 600;
-  padding: 5px 0px;
-}
-.hIWTitle {
-  color: #2a2a2a;
-  font-size: x-large;
-  padding-top: 7px;
-  text-align: left;
-}
-.hIWbody {
-  color: #818181;
-  text-align: left;
-}
-.hIWRow {
-  padding-top: 40px;
-}
 /* Sidebar */
 .navBar {
   position: relative;
@@ -357,49 +318,6 @@
   width: 100%;
 }
 /* GALLERY */
-.lookbookPreview {
-  border: 5px solid #666666;
-  max-width: 400px;
-  max-height: 400px;
-}
-.lookbookPreview:hover {
-  border: 1px solid #666666;
-  padding: 4px;
-}
-.lookbookTitle {
-  color: #000;
-  font-size: 20px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-.galleryBtn {
-  background: none;
-  border: none;
-  padding: 0;
-}
-.collectionBox {
-  margin-bottom: 20px;
-}
-.notes__inner__image img {
-  max-width: 100%;
-}
-.galleryRow {
-  border-bottom: 1px solid #666666;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-.swiper-button-next {
-  color: #000 !important;
-}
-.swiper-button-prev {
-  color: #000 !important;
-}
-.swiper-pagination-bullet-active {
-  background: #000 !important;
-}
-.lookbookRow {
-  padding-top: 20px;
-}
 .alogo {
   margin-bottom: -7px;
   margin-top: -12px;

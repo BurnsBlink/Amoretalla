@@ -194,6 +194,32 @@ export const products = [
   },
   {
     id: 17,
+    name: 'Caitlyn',
+    mainImage: '1UsulFg9BvCc232OwgFLVsboB_mCy4OAF',
+    images: [
+      '1UsulFg9BvCc232OwgFLVsboB_mCy4OAF',
+      '1XqxGI_8HccWTPVI3tZy_xSm8OLbIiuLP',
+      '1CpwcYO5MkLavUDViItPbDM4eTUrzlxE1',
+      '1OCJKTfc7TxT6qDg_ra9dHXV1CRwcY2ot',
+    ],
+    description: '',
+    collection: 'springSummer26',
+  },
+  {
+    id: 18,
+    name: 'Calista',
+    mainImage: '1mp1_gNk4kRg766XEgpB9PYok5zIIYVZk',
+    images: [
+      '1mp1_gNk4kRg766XEgpB9PYok5zIIYVZk',
+      '16uRk61yniUdZ6RoztU_63efdQa8GSZ6q',
+      '1sVXoa-yWoh3kdK41WfOUodBynD1etklS',
+      '1wahSXsQpbPEqqGLSJBTKhGOlSVcovnR9',
+    ],
+    description: '',
+    collection: 'springSummer26',
+  },
+  {
+    id: 19,
     name: 'Carolina',
     mainImage: '1nIqO5IXXUQMlGM5b-WzyHjswBuSJcZ_5',
     images: [
@@ -206,7 +232,34 @@ export const products = [
     collection: 'springSummer26',
   },
   {
-    id: 18,
+    id: 20,
+    name: 'Celia',
+    mainImage: '1FkBExhcrO0SbzveO_upHoHCVlYqZXyfZ',
+    images: [
+      '1FkBExhcrO0SbzveO_upHoHCVlYqZXyfZ',
+      '1w2BPMaSz6hyvjRtcJVeObFyZBVxi-eYu',
+      '1BHJbI-hu0V_v8G4KmKgNESM_lg62yG8k',
+      '1Gjtx11znBrj33atsYW-f-8vVOvBcVahL',
+    ],
+    description: '',
+    collection: 'springSummer26',
+  },
+  {
+    id: 21,
+    name: 'Celine',
+    mainImage: '1G3WtTOG-h93t7pvDyJUxl4S4WFBUe2DW',
+    images: [
+      '1G3WtTOG-h93t7pvDyJUxl4S4WFBUe2DW',
+      '1OCisy0zkMgRvVnClYk4r0zE1fUBVBBcN',
+      '1znfZXGAzeSJL_NOEs-ImsrYO6deC04N7',
+      '1nB6baSPr61fGTfBdQpZyeq3rASlZFezL',
+      '1mMPW0rlurSXu_1B3njt8VDeuvM6mFtXb',
+    ],
+    description: '',
+    collection: 'springSummer26',
+  },
+  {
+    id: 22,
     name: 'Chrisalee',
     mainImage: '1FvDMPlxEwLK7jYrkJBDV7rP088Z4rjl-',
     images: [
@@ -220,7 +273,7 @@ export const products = [
     collection: 'springSummer26',
   },
   {
-    id: 19,
+    id: 23,
     name: 'Chrishell',
     mainImage: '111zmHhsa4sqdPNTLd2P-Q_tGqfA_QTzo',
     images: [
@@ -233,7 +286,20 @@ export const products = [
     collection: 'springSummer26',
   },
   {
-    id: 20,
+    id: 24,
+    name: 'Clara',
+    mainImage: '1eJoLPHIt-YlbWiRrcmILxetIzgx2Q6Bs',
+    images: [
+      '1eJoLPHIt-YlbWiRrcmILxetIzgx2Q6Bs',
+      '1Jp_cN2mB28pf105bR4p4U_-TLWvaISip',
+      '1CHj7EzRX4SnsCLMA5M-u0Qk4tLnlGXsG',
+      '1AxocjFmygVl4Rpy4W97qt96you0cqp0z',
+    ],
+    description: '',
+    collection: 'springSummer26',
+  },
+  {
+    id: 25,
     name: 'Cleo',
     mainImage: '1A2r1F-1AK_CAsErZHnkUKWp8xoyomXmM',
     images: [
@@ -247,7 +313,7 @@ export const products = [
     collection: 'springSummer26',
   },
   {
-    id: 21,
+    id: 26,
     name: 'Collette',
     mainImage: '1zrDPiLYN5nv2tDpg7AG9nB85a6IesDCx',
     images: [
@@ -257,6 +323,33 @@ export const products = [
       '1Jbs7oRY25RqyvffBA3S4C5c_-yAVXoxW',
     ],
     description: 'High neckline with banded collar fit-and-flare 3-dimensional floral Guipure lace and taffeta waistband with avant-garde bow and floor-length sash.',
+    collection: 'springSummer26',
+  },
+  {
+    id: 27,
+    name: 'Cora',
+    mainImage: '1BDVUMiIsOF2a6ilpElASHHm2QzE97TcM',
+    images: [
+      '1BDVUMiIsOF2a6ilpElASHHm2QzE97TcM',
+      '1N19kLhxBZpIThd1fEbJylSywVj1jn1oi',
+      '1_jSLINmpsnI7WNY1UZmqWaxGP4SoFnCl',
+      '1kK2rLpC2mH2OoWkwBVWEkrJJx_zMwKfw',
+      '1vvnEGusY5PKQOS-DP_YuGFNbvYKm_HOm',
+    ],
+    description: '',
+    collection: 'springSummer26',
+  },
+  {
+    id: 28,
+    name: 'Courtney',
+    mainImage: '10lH0TyyDHVNfZaWy3wdHEjS5N0G67zqX',
+    images: [
+      '10lH0TyyDHVNfZaWy3wdHEjS5N0G67zqX',
+      '16q7sG7xhvtLf6K1RjUdHT1sf7sQkiFTr',
+      '1n5i0AuhrJbLRrq9QC9Mxm39LdNKgPees',
+      '1IfQDnceyxCAGEg41v8vXPYWJmGS3dGFl',
+    ],
+    description: '',
     collection: 'springSummer26',
   },
 ];
