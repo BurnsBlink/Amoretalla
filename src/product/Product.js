@@ -44,7 +44,12 @@ function Product() {
           </div>
           <div className="product-details">
             <h1 className="productTitleText">{product.name}</h1>
-            <p className="productSubtitleText">{product.description}</p>
+            <p className={`productSubtitleText ${product.descriptionOptional ? 'withOptionalDescription' : ''}`}>
+              {product.description}
+            </p>
+            {product.descriptionOptional && (
+              <p className="productSubtitleText">{product.descriptionOptional}</p>
+            )}
             <div className="product-thumbnails-grid">
               {product.images.map((image, index) => (
                 <div

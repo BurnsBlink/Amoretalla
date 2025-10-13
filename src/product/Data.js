@@ -37,7 +37,7 @@ export const products = [
       '1diqAb_69ud4LJo6OMHTMvmWq8KQJEz8v',
       '1O7xwHmnDhIpUa9j8FPx441YO_ABLzGkz',
     ],
-    description: 'A strapless Mikado mermaid style. Three-dimensional floral appliqués at bust line and train, with sheer corset back and contrasting boning channels.',
+    description: 'Strapless silky Mikado princess-line, three-dimensional floral applique bustline and train with removable scallop sleeve, sheer corset back highlighting contrasting boning channels.',
     collection: 'springSummer26',
   },
   {
@@ -205,7 +205,7 @@ export const products = [
       '1CpwcYO5MkLavUDViItPbDM4eTUrzlxE1',
       '1OCJKTfc7TxT6qDg_ra9dHXV1CRwcY2ot',
     ],
-    description: '',
+    description: 'Delicate floral, sequined guipure sweetheart necklined ballgown with optional silky organza neck bow.',
     collection: 'springSummer26',
   },
   {
@@ -221,7 +221,7 @@ export const products = [
       '13TeTR1zEH5nPvPlsEIQvIowj9lDwZbLJ',
       '1Bz22JtXKZRLEtY3OT2v11lEwIfAs2Ao-',
     ],
-    description: '',
+    description: 'Sequin floral guipure sweetheart neckline, side slit dress column with bolero jacket and removable chiffon watteau train.',
     collection: 'springSummer26',
   },
   {
@@ -247,7 +247,7 @@ export const products = [
       '1BHJbI-hu0V_v8G4KmKgNESM_lg62yG8k',
       '1Gjtx11znBrj33atsYW-f-8vVOvBcVahL',
     ],
-    description: '',
+    description: 'Satin D’ Hauteur strapless Basque-waist gown with beaded applique neckband; side slit; pockets; removable back bow.',
     collection: 'springSummer26',
   },
   {
@@ -261,7 +261,7 @@ export const products = [
       '1nB6baSPr61fGTfBdQpZyeq3rASlZFezL',
       '1mMPW0rlurSXu_1B3njt8VDeuvM6mFtXb',
     ],
-    description: '',
+    description: 'Hushed pink, lined, beaded, floral applique; sweetheart neckline; fit-and-flare with removable back bow, scalloped rosette sleeves and petals. Optional: Also offered in Diamond White.',
     collection: 'springSummer26',
   },
   {
@@ -301,7 +301,7 @@ export const products = [
       '1CHj7EzRX4SnsCLMA5M-u0Qk4tLnlGXsG',
       '1AxocjFmygVl4Rpy4W97qt96you0cqp0z',
     ],
-    description: '',
+    description: 'Silky Mikado and tulle; Inverted pleated bodice with waist bow; delicate ruffle trim along neckline; two-tier ballgown skirt.',
     collection: 'springSummer26',
   },
   {
@@ -342,7 +342,7 @@ export const products = [
       '1kK2rLpC2mH2OoWkwBVWEkrJJx_zMwKfw',
       '1vvnEGusY5PKQOS-DP_YuGFNbvYKm_HOm',
     ],
-    description: '',
+    description: 'Strapless silky Mikado corseted, basqued-waist with boning detail; fit-and-flare; pleated, draped neckline; back train. Optional: chiffon neck scarf.',
     collection: 'springSummer26',
   },
   {
@@ -357,7 +357,8 @@ export const products = [
       '1IfQDnceyxCAGEg41v8vXPYWJmGS3dGFl',
       '1hp7-sIq8dzzKE0GmqF5BgbMX7FYujFAM',
     ],
-    description: '',
+    description: 'Floral guipure and silky Mikado long-sleeved V-neck peplum jacket; high waist fit-and-flare trouser with side details.',
+    descriptionOptional: 'With optional Mikado or guipure A-line skirt',
     collection: 'springSummer26',
   },
 ];
