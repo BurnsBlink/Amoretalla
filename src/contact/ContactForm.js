@@ -5,10 +5,10 @@ import '../App.css';
 import 'react-phone-number-input/style.css'
 
 const ContactForm = () => {
-  const bizCardSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/aubrey.png'
-  const bizCardSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/aubrey.png'
-  const bizCardSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/aubrey.png'
-  const bizCardSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/aubrey.png'
+  // const bizCardSizeSmall = 'https://ik.imagekit.io/r596hampx/tr:w-600/aubrey.png'
+  // const bizCardSizeMed = 'https://ik.imagekit.io/r596hampx/tr:w-800/aubrey.png'
+  // const bizCardSizeLarge = 'https://ik.imagekit.io/r596hampx/tr:w-1200/aubrey.png'
+  // const bizCardSizeXlarge = 'https://ik.imagekit.io/r596hampx/tr:w-1600/aubrey.png'
   const [value, setValue] = useState('+1 ')
   const form = useRef();
 
@@ -72,7 +72,7 @@ const ContactForm = () => {
                   Salem, NH 03079</a></div>
               </div>
             </div>
-            <div className='row justify-content-center'>
+            {/* <div className='row justify-content-center'>
               <div className='col-md-12'>
                 <a target='_blank' rel='noreferrer' href='mailto:arbridalsales@gmail.com'>
                   <img
@@ -83,7 +83,7 @@ const ContactForm = () => {
                   />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
