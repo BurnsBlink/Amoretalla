@@ -260,6 +260,7 @@ export const products = [
       '1znfZXGAzeSJL_NOEs-ImsrYO6deC04N7',
       '1nB6baSPr61fGTfBdQpZyeq3rASlZFezL',
       '1mMPW0rlurSXu_1B3njt8VDeuvM6mFtXb',
+      '1b8mWPZOjuOvM6L5TximlWAyX7SpaTT8e'
     ],
     description: 'Hushed pink, lined, beaded, floral applique; sweetheart neckline; fit-and-flare with removable back bow, scalloped rosette sleeves and petals. Optional: Also offered in Diamond White.',
     collection: 'springSummer26',

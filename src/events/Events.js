@@ -40,13 +40,13 @@ const EventItem = ({ event }) => (
 const Events = () => {
   const events = [
     {
-      title: 'New York Bridal Fashion Week',
-      date: '10/14 - 10/16',
-      location: '417 5th Ave',
-      city: 'Manhattan, NY 10016',
-      booth: 'Showroom 5B',
-      link: 'https://fashionweekonline.com/bridal',
-      image: 'https://drive.google.com/thumbnail?id=1xA43mrUV6bznrmHrBxw2P8_qjc3BSpCY',
+      title: 'Legacy Bridal Boutique',
+      date: '01/11 - 01/26',
+      location: '183 E. Williams Field Rd, Ste E-109',
+      city: 'Gilbert, AZ 85295',
+      booth: 'Trunk Show Pop-up',
+      link: 'https://www.legacybridalboutique.com/news-1',
+      image: 'https://drive.google.com/thumbnail?id=1RqN57kPQqdEIN67hpQIdppkk4iSa--LA',
     },
   ];
 
