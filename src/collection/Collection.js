@@ -6,7 +6,7 @@ import { products } from '../product/Data';
 function Collection() {
   const { collection: urlCollection } = useParams();
   const location = useLocation();
-  const [selectedCollection, setSelectedCollection] = useState('springSummer25');
+  const [selectedCollection, setSelectedCollection] = useState('springSummer26');
   const [hoveredProductId, setHoveredProductId] = useState(null); // Track hovered product
 
   const collections = useMemo(() => [
