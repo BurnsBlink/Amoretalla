@@ -40,12 +40,21 @@ const EventItem = ({ event }) => (
 const Events = () => {
   const events = [
     {
-      title: 'Legacy Bridal Boutique',
-      date: '01/11 - 01/26',
-      location: '183 E. Williams Field Rd, Ste E-109',
-      city: 'Gilbert, AZ 85295',
-      booth: 'Trunk Show Pop-up',
-      link: 'https://www.legacybridalboutique.com/news-1',
+      title: 'The National Bridal Market Chicago',
+      date: 'August 16th - 18th',
+      location: '222 Merchandise Mart Plaza',
+      city: 'Chicago, IL 60654',
+      booth: '7th Floor - Booth 1094',
+      link: 'https://www.nationalbridalmarket.com/',
+      image: 'https://drive.google.com/thumbnail?id=1xA43mrUV6bznrmHrBxw2P8_qjc3BSpCY',
+    },
+    {
+      title: 'Melange de Blanc',
+      date: 'October 13th - 15th',
+      location: '601 West 26th Street',
+      city: 'New York, NY 10001',
+      booth: '3rd Floor',
+      link: 'https://www.melangedeblanc.com/',
       image: 'https://drive.google.com/thumbnail?id=1RqN57kPQqdEIN67hpQIdppkk4iSa--LA',
     },
   ];
