@@ -19,43 +19,110 @@
 
 .globalHeader {
   background: var(--white) !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 30px;
+  position: relative;
+  min-height: 118px;
+}
+
+/* Hamburger always visible and on the left */
+.hamburgerMenu {
+  display: flex !important;   /* force it to show on all screen sizes */
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  z-index: 20;
+  flex: 0 0 auto;
+  z-index: 110;
+}
+
+/* Centered logo */
+.logoLink {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.logoStack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 8px 16px;          /* gives the border some breathing room */
+}
+
+.blackLogo {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
 }
 
 .longNameLogo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
   background: var(--white);
-  height: 30%;
-  width: 35%;
 }
 
-.subLinks {
-  background: var(--white);
-  border-bottom: 1px solid gainsboro;
-  border-top: 1px solid gainsboro;
-  padding: 10px 0px;
+/* Empty right side to keep logo centered */
+.headerSpacer {
+  flex: 1;
+  max-width: 60px; /* roughly matches hamburger width */
+}
+
+/* ===== Mobile menu (already existed) ===== */
+.menuNav {
+  overflow-y: auto;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  background: #2a2a2a;
+  z-index: 30;
+  transition: width 0.3s ease;
+  padding-top: 80px;
+}
+
+.menuNav.showMenu {
+  width: 280px;
+}
+
+.mobileSubLinks {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 95%;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0 2rem;
 }
 
-.subLink {
-  color: var(--text-dark);
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 0.65;
+.mobileSubLink {
+  color: white;
+  font-size: 1.15rem;
+  text-decoration: none;
+  opacity: 0.9;
 }
 
-.subLink:hover {
-  color: var(--text-dark);
+.mobileSubLink:hover {
+  color: #dcca98
 }
 
-.subLink.active {
-  color: var(--text-dark);
-  font-weight: 900;
-  letter-spacing: 1px;
+.mobileSubLink:hover,
+.mobileSubLink.active {
   opacity: 1;
+  font-weight: 600;
 }
-
 .pageBody {
   margin-top: 1rem;
   padding-bottom: 5rem;
@@ -384,6 +451,32 @@
   margin-right: 0px;
 }
 
+.heroSection {
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;   /* keeps the top of the dress visible */
+  display: block;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .heroSection {
+    height: 60vh;
+  }
+
+  .heroImage {
+    object-position: center 20%; /* slightly lower on mobile so more of the dress shows */
+  }
+}
+
 .instafeedContainer {
   margin-top: 50px;
 }
@@ -485,6 +578,7 @@
 
 .menuNav.showMenu {
   width: 100%;
+  z-index: 100;
 }
 
 /* GALLERY */
@@ -950,4 +1044,34 @@
     width: calc(50% - 5px); /* 2 per row on small screens */
     max-width: 80px;
   }
+}
+
+.underConstruction {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.constructionTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-dark);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.constructionText {
+  font-size: 1.15rem;
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.constructionLine {
+  width: 60px;
+  height: 2px;
+  background: var(--text-light);
+  margin: 0 auto;
 }

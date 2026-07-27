@@ -46,29 +46,29 @@ function App() {
           aria-expanded={navbarOpen}
           aria-label="Toggle navigation"
         >
-          <Hamburger toggled={navbarOpen} toggle={setNavbarOpen} />
-        </button>
-        <NavLink to="/">
-          <img
-            className="longNameLogo"
-            src="https://ik.imagekit.io/r596hampx/amoreLongNameBlack_QsCaHQlI4.png"
-            alt="Amorétalla logo"
+          <Hamburger
+            toggled={navbarOpen}
+            toggle={setNavbarOpen}
+            size={28}
+            distance="lg"
+            color={navbarOpen ? "#ffffff" : "#333"}
           />
+        </button>
+        <NavLink to="/" className="logoLink" onClick={closeMenu}>
+          <div className="logoStack">
+            <img
+              className="blackLogo"
+              src="/images/blacklogo.png"
+              alt="Amorétalla logo"
+            />
+            <img
+              className="longNameLogo"
+              src="https://ik.imagekit.io/r596hampx/amoreLongNameBlack_QsCaHQlI4.png"
+              alt="Amorétalla"
+            />
+          </div>
         </NavLink>
-        <div className="subLinks">
-          <NavLink className="subLink" to="/collections" aria-label="Collections">
-            Collections
-          </NavLink>
-          <NavLink className="subLink" to="/events" aria-label="Events">
-            Events
-          </NavLink>
-          <NavLink className="subLink" to="/about" aria-label="About Us">
-            About Us
-          </NavLink>
-          <NavLink className="subLink" to="/contact" aria-label="Contact Us">
-            Contact Us
-          </NavLink>
-        </div>
+        <div className="headerSpacer"></div>
       </div>
       <Routes>
         <Route path="/" element={<Main />} />
