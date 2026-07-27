@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import '../App.css';
 // import { Helmet } from 'react-helmet';
-import ReactPlayer from 'react-player';
 // import { Link } from 'react-router-dom';
 import { longForm } from '../util/utilities';
 
@@ -37,7 +36,7 @@ function Main() {
 
   return (
     <div className="pageBodyMain">
-      <div className="row vPlayerRow">
+      {/* <div className="row vPlayerRow">
         {['walkway1.mp4', 'walkway2.mp4', 'walkway3.mp4'].map((video, index) => (
           <div key={video} className="col vPlayerWrapper">
             <ReactPlayer
@@ -54,6 +53,15 @@ function Main() {
             />
           </div>
         ))}
+      </div> */}
+      <div className="heroSection">
+        <img
+          className="heroImage"
+          src={`${process.env.REACT_APP_PROXY_URL}/api/proxy-image?url=${encodeURIComponent(
+            'https://drive.google.com/thumbnail?id=1Ueq4sB_KGVRSCVDlBq2S-MkAtYkwrck6&sz=w1920'
+          )}`}
+          alt="Modern bridal wedding dress"
+        />
       </div>
       <div className="container">
         <div className="row">
