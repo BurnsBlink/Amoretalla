@@ -4,6 +4,6 @@ export const longForm = {
     author: 'Erin Fairfield, Boutique Manager at Wed Company Wedding Wear'
   },
   mainPage: {
-    description: `At Amorétalla, every piece of the Bridal collection, from cutting-edge couture gowns to figure-flattering jumpsuits and rompers, is hand stitched in an atelier in Salem, N.H., using the finest fabrics, laces, crystals and other finishes mindfully curated from around the globe.`
+    description: `At Amorétalla, every piece of the Bridal collection, from cutting-edge couture gowns to figure-flattering silhouette handcrafted with care using the finest fabrics, laces, crystals and other finishes mindfully curated from around the globe.`
   }
 };
