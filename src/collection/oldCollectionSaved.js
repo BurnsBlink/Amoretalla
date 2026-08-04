@@ -6,13 +6,11 @@ import { products } from '../product/Data';
 function Collection() {
   const { collection: urlCollection } = useParams();
   const location = useLocation();
-  const [selectedCollection, setSelectedCollection] = useState('springSummer26');
+  const [selectedCollection, setSelectedCollection] = useState('romanceByGabe');
   const [hoveredProductId, setHoveredProductId] = useState(null); // Track hovered product
 
   const collections = useMemo(() => [
-    'springSummer26',
-    'springSummer25',
-    'springSummer24',
+    'romanceByGabe',
   ], []);
 
   useEffect(() => {
@@ -22,10 +20,7 @@ function Collection() {
   }, [urlCollection, location.pathname, collections]);
 
   const collectionTitles = {
-    springSummer26: 'SPRING | SUMMER \'26',
-    springSummer25: 'SPRING | SUMMER \'25',
-    springSummer24: 'SPRING | SUMMER \'24',
-    custom: 'THE CUSTOM COLLECTION',
+    romanceByGabe: 'Romance by Gabe',
   };
 
   const renderCollectionTitle = (collection) => collectionTitles[collection] || collection;
@@ -39,7 +34,6 @@ function Collection() {
     const googleUrl = `https://drive.google.com/thumbnail?id=${fileId}&sz=w${width}`;
     return `${process.env.REACT_APP_PROXY_URL}/api/proxy-image?url=${encodeURIComponent(googleUrl)}`;
   };
-
   return (
     <div className="pageBody">
       <div className="container collection-container">
