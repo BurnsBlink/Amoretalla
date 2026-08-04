@@ -1,5 +1,18 @@
 export const products = [
   {
+    id: 'Dahlia',
+    name: 'Dahlia',
+    mainImage: '1Q3YyWnUA2TNKSLVJF7fZfax-t5jIG0e-',
+    images: [
+      '1Q3YyWnUA2TNKSLVJF7fZfax-t5jIG0e-',
+      '1OMETlbLu1sy3ZJJt7xahtyuEJvXHXJwC',
+      '1TBy_7FFvBAhGi3HXi7MKLHZXvf6RawYt',
+      '1hDgPrCzZtMSlWaB9nsCFGaC1ZJ90ibDp',
+    ],
+    description: 'Satin; structured curved low-waist; corset bodice; sweetheart neckline; voluminous Organza skirt adorned with three-dimensional fabric flowers; ballgown flows into chapel-length train. Offered with removable and strategically placed three-dimensional floral sleeve and veil.',
+    collection: 'romanceByGabe',
+  },
+  {
     id: 'Dede',
     name: 'Dede',
     mainImage: '1V5nyWHaZV2fyYpU1D3gLNaHU4Ii3unxp',
@@ -30,6 +43,7 @@ export const products = [
       '1eixUYZvrC6jhbiAWT6bOmTUgBN33rdEo',
       '1gX9H1_wgIHJm7GHN-EZHQh7uEiU3qzqH',
       '1gG1nzLSvz1wN-LhODGRuMvEu5vS7oijd',
+      '14knHVixPSFdVy9eGJTMLAPne5U0Bnvuy',
     ],
     description: 'Mikado; sweetheart neckline; princess seam modified A-Line silhouette with back buttons; chapel-length train. Optional: Chantilly lace Basque waist jacket features back buttons, long sleeves with buttons and banded collar to be worn over or under garment.',
     collection: 'romanceByGabe',
@@ -73,9 +87,9 @@ export const products = [
   {
     id: 'Danika',
     name: 'Danika',
-    mainImage: '1gG1nzLSvz1wN-LhODGRuMvEu5vS7oijd',
+    mainImage: '1PUd8RfymUUk_sAg-1HPeOSor5eOMWP9k',
     images: [
-      '1gG1nzLSvz1wN-LhODGRuMvEu5vS7oijd',
+      '1PUd8RfymUUk_sAg-1HPeOSor5eOMWP9k',
       '1vjgNCcLfjn6NZAmICHVRpRCuSa1CO91r',
       '1Dsfs5PBWtMGHcFC4yffoCg3ibUBbgJ65',
       '1pGxGPThomm5APU1iNzC26VuDOZ94j-ZZ',
@@ -131,7 +145,6 @@ export const products = [
     images: [
       '1_88XvOa8hvCU4ydcKg-6c0_Dw8RaLbkY',
       '1_njsLhhTXeuQPKfPtBGxUjHyYvaeEUtt',
-      '14knHVixPSFdVy9eGJTMLAPne5U0Bnvuy',
       '1ooFlIsg-JpRUUtLbdg2mnto4Uto3JPuL',
       '1uZdpKpxBOrBUcZUITOJO0WKdjq_Pr5_c',
     ],
@@ -190,12 +203,12 @@ export const products = [
   {
     id: 'Dina',
     name: 'Dina',
-    mainImage: '1MbWNj7jyTjqCd9LrnGvSrDZCqI8bMCEq',
+    mainImage: '16Ak73M8en8-IH5pUmhvZwTmjsY8_S8tw',
     images: [
-      '1MbWNj7jyTjqCd9LrnGvSrDZCqI8bMCEq',
+      '16Ak73M8en8-IH5pUmhvZwTmjsY8_S8tw',
       '1bytYsTeIhyFc4AfzKd6KwYb860tZwOfm',
       '1SPhBbKK6bLWTm1vmsyABWLjbe2vZ41NC',
-      '1jC9__EVNalIj00O-DTB-rHXwR4u1O3U0',
+      '1IbxaI7jqjxUgxd6iB7MYxozkz-saNhKw',
     ],
     description: 'Chantilly corded lace; structured bodice Basque waist; fit and flare; optional side slit; chapel-length train; removable gauntlet sleeves. This gown is offered with a chapel-length veil with a blusher.',
     collection: 'romanceByGabe',
@@ -214,16 +227,17 @@ export const products = [
     collection: 'romanceByGabe',
   },
   {
-    id: 'Dahlia',
-    name: 'Dahlia',
-    mainImage: '1Q3YyWnUA2TNKSLVJF7fZfax-t5jIG0e-',
+    id: 'Dua',
+    name: 'Dua',
+    mainImage: '1HfpB8VOlIOmCa1BIRkqVPJ0aDFHbaN1o',
     images: [
-      '1Q3YyWnUA2TNKSLVJF7fZfax-t5jIG0e-',
-      '1OMETlbLu1sy3ZJJt7xahtyuEJvXHXJwC',
-      '1TBy_7FFvBAhGi3HXi7MKLHZXvf6RawYt',
-      '1hDgPrCzZtMSlWaB9nsCFGaC1ZJ90ibDp',
+      '1HfpB8VOlIOmCa1BIRkqVPJ0aDFHbaN1o',
+      '1_bx3LapabaFcTQuN1Q7DJzrZjQ6yLu-j',
+      '1dskfmFQOPsvVr64RiBITPbMr4kXRDlXs',
+      '13LKOvQl8FlEw8uSE9H2IxgcmRmba9LhH',
+      '1fOzzSwP9Pv8Ok11rNguV_KL3JgPXeCF0',
     ],
-    description: 'Satin; structured curved low-waist; corset bodice; sweetheart neckline; voluminous Organza skirt adorned with three-dimensional fabric flowers; ballgown flows into chapel-length train. Offered with removable and strategically placed three-dimensional floral sleeve and veil.',
+    description: '',
     collection: 'romanceByGabe',
   },
 ];

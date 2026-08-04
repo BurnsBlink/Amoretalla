@@ -6,20 +6,20 @@ import { products } from './Data';
 function Product() {
   const { name } = useParams();
   const [mainImage, setMainImage] = useState('');
-  let product;
 
+  const product = products.find(
+    (p) => p.name.toLowerCase() === name.toLowerCase()
+  );
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [])
 
-  try {
-    product = products.find((p) => p.name.toLowerCase() === name.toLowerCase());
-    if (!mainImage && product) setMainImage(product.mainImage);
-  } catch (error) {
-    console.error('Error finding product:', error);
-    return <div className="pageBody">Error loading product</div>;
-  }
+  useEffect(() => {
+    if (product) {
+      setMainImage(product.mainImage);
+    }
+  }, [product]);
 
   if (!product) {
     return <div className="pageBody">Product not found</div>;
@@ -36,7 +36,7 @@ function Product() {
         <div className="product-content">
           <div className="product-images">
             <img
-              src={getImageUrl(mainImage || product.mainImage, 600)}
+              src={getImageUrl(mainImage || product.mainImage, 2000)}
               alt={`${product.name} main view`}
               className="product-main-image"
               loading="lazy"
@@ -44,7 +44,11 @@ function Product() {
           </div>
           <div className="product-details">
             <h1 className="productTitleText">{product.name}</h1>
-            <p className={`productSubtitleText ${product.descriptionOptional ? 'withOptionalDescription' : ''}`}>
+            <p
+              className={`productSubtitleText ${
+                product.descriptionOptional ? 'withOptionalDescription' : ''
+              }`}
+            >
               {product.description}
             </p>
             {product.descriptionOptional && (
@@ -54,10 +58,12 @@ function Product() {
               {product.images.map((image, index) => (
                 <div
                   key={index}
-                  className={`product-thumbnail-wrapper ${mainImage === image ? 'active' : ''}`}
+                  className={`product-thumbnail-wrapper ${
+                    mainImage === image ? 'active' : ''
+                  }`}
                 >
                   <img
-                    src={getImageUrl(image, 300)}
+                    src={getImageUrl(image, 400)}
                     alt={`${product.name} view ${index + 1}`}
                     className="product-thumbnail"
                     onClick={() => setMainImage(image)}
