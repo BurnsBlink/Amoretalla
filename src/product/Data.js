@@ -10,18 +10,18 @@ export const products = [
       '1hDgPrCzZtMSlWaB9nsCFGaC1ZJ90ibDp',
     ],
     description: 'Satin; structured curved low-waist; corset bodice; sweetheart neckline; voluminous Organza skirt adorned with three-dimensional fabric flowers; ballgown flows into chapel-length train. Offered with removable and strategically placed three-dimensional floral sleeve and veil.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Dede',
     name: 'Dede',
-    mainImage: '1V5nyWHaZV2fyYpU1D3gLNaHU4Ii3unxp',
+    mainImage: '1ZGrbji4kEq9DvfcnEWSTIl6-cNkKJQkj',
     images: [
-      '1V5nyWHaZV2fyYpU1D3gLNaHU4Ii3unxp',
+      '1ZGrbji4kEq9DvfcnEWSTIl6-cNkKJQkj',
       '1_oFozTm5SfVOzwuTzhl-LAWbscWCqq1Y',
     ],
     description: 'Raised corded jacquard fabric; full A-line side-pleated skirt with pockets and optional covered buttons; back flows into chapel-length train; Basque waist, corset-structured bodice with curved neckline and bralette.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Dream',
@@ -31,9 +31,13 @@ export const products = [
       '1GJLTu6-gL2DG81t8wLozoupu1Xd9Ou_d',
       '1ICbtM4pPrzPEw3cv-F49W_mzLrb3jCwa',
       '1fqERoXpMxTuXEbYlLAuvRwArycjgOiDp',
+      '1LGkTNIm-Q1GJTAnaeWejQmj69sNy-ezR',
+      '1kpnGGnPDQWpwEuBMLx1MTwAEcrgMakdp'
+
     ],
-    description: 'Duchesse Satin; long torso; structured corset bodice paired with a classic catseye neckline with removable shoulder straps; pleated voluminous skirt that flows into a chapel-length train. Optional sliver Beading.',
-    collection: 'romanceByGabe',
+    description: 'Duchesse Satin; long torso; structured corset bodice paired with a classic catseye neckline with removable shoulder straps; pleated voluminous skirt that flows into a chapel-length train.',
+    descriptionOptional: 'Optional: Silver Beading.',
+    collection: 'romance',
   },
   {
     id: 'Dani',
@@ -45,8 +49,9 @@ export const products = [
       '1gG1nzLSvz1wN-LhODGRuMvEu5vS7oijd',
       '14knHVixPSFdVy9eGJTMLAPne5U0Bnvuy',
     ],
-    description: 'Mikado; sweetheart neckline; princess seam modified A-Line silhouette with back buttons; chapel-length train. Optional: Chantilly lace Basque waist jacket features back buttons, long sleeves with buttons and banded collar to be worn over or under garment.',
-    collection: 'romanceByGabe',
+    description: 'Mikado; sweetheart neckline; princess seam modified A-Line silhouette with back buttons; chapel-length train.',
+    descriptionOptional: 'Optional: Chantilly lace Basque waist jacket features back buttons, long sleeves with buttons and banded collar to be worn over or under garment.',
+    collection: 'romance',
   },
   {
     id: 'Dakota',
@@ -59,7 +64,7 @@ export const products = [
       '1YPHcd_y1W7CLG-LiWzn70LFeI-ere_xh',
     ],
     description: 'Trumpet silhouette in Refined Chic Crepe with slight curved and intentional figure flattering diagonal pleated bodice; scalloped sleeves; removable, yet transformative chapel-length train with floral decal over skirt.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Dia',
@@ -71,7 +76,7 @@ export const products = [
       '15v8GY3utgCQPgGToQ9O8ZylSRxCsnTb6',
     ],
     description: 'Luxurious Raised Jacquard; Trumpet-style arched neckline, sculptural bodice with soft Basque waist detail; back covered button; scalloped sleeve; removable, yet transformative chapel-length train over skirt.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Darcy',
@@ -82,7 +87,7 @@ export const products = [
       '1y_jkY0Cu6a0ILdulJmUW9EP7iShv2XV2',
     ],
     description: 'Col Bateau neckline, Refined Chic Crepe; Trumpet Silhouette wrap dress with slightly ruched bodice and hip; long side slit.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Danika',
@@ -96,7 +101,7 @@ export const products = [
       '116aFVyoWVz75xQsyevHFOU0QVwt1LLX2',
     ],
     description: 'Soft sweetheart neckline, laser-cut embroidered florals and petals; ballgown flows into chapel-length train. Romantic yet feminine opaque Tulle and Organza; figure flattering silhouette.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Diana',
@@ -111,7 +116,7 @@ export const products = [
       '1lG4e8OW6HfyHb8XbWwPOXPISsEfy0NIg',
     ],
     description: 'Laser-cut delicate florals with beaded embroidery bodice that flows into ethereal chapel train; removable sleeve and neck band. Superior quality Satin Chiffon full skirt with high side slit.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Deja',
@@ -123,7 +128,7 @@ export const products = [
       '1M_ZVAeeRtk9oa8O5JAnopzK3hCD36xjB',
     ],
     description: 'Halter neck; figure-flattering Trumpet Silhouette with three-dimensional laser-cut embroidered leaves and vines diagonally placed over light nude lining.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Daphne',
@@ -136,7 +141,7 @@ export const products = [
       '1UU6-b84Dk5z-9SBNHrPJ59KoswX-K4o-',
     ],
     description: 'Satin and Tulle ballgown; voluminous skirt with floral pickup corsage along sides of soft layered tulle; structured curved low-waist corset bodice; sweetheart neckline.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Dora',
@@ -149,21 +154,21 @@ export const products = [
       '1uZdpKpxBOrBUcZUITOJO0WKdjq_Pr5_c',
     ],
     description: 'Chantilly beaded lace with pearls; A-line silhouette with slightly arched neckline; Satin covered removable belt and long with Blow detail. This style offers a soft, mesh body suit with matching lace top and long sleeve.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Della',
     name: 'Della',
-    mainImage: '1mqKav1BUNSNLKV-b11ufDLUklELOPC4i',
+    mainImage: '1uQF_NDnjcRVO85_aJoMIg88qrD5_-Qss',
     images: [
-      '1mqKav1BUNSNLKV-b11ufDLUklELOPC4i',
+      '1uQF_NDnjcRVO85_aJoMIg88qrD5_-Qss',
       '1HF_8Fn335BJ15AXvP4psb048eFJWqFbb',
-      '1VSum7OpstC8m9GjECD63OtPaE_gCPumH',
-      '1WC4VgJ8jEWVrujJdLIIpopbvu_TsVqYC',
+      '1HXlxR6p9DTqw70aLaWKrp4a1sb8eHJtE',
+      '1ONVeh32wcCNHNJotmk-l_8jXM1VJfh8q',
       '1d2p2AGZNqHf1Ev-4g5E2BA6Z4O-k3xsH',
     ],
     description: 'Multi-layered ruched sweetheart neckline; full soft Tulle skirt that flows into chapel-length train; Removable shoulder band and antique floral waist brooch. Offered in off-white and pale pink.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Destiny',
@@ -175,7 +180,7 @@ export const products = [
       '13iuUGzXB6p4AdOlHVILKdK2WpxrbqKhL',
     ],
     description: 'Satin Trumpet with embroidered laser cut leaves and florals; beaded lace bodice; side slit; removable fitted sleeve; soft ruching adorns the lower waist and hip.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Dori',
@@ -186,7 +191,7 @@ export const products = [
       '1ei2ULkJvpI75h7Lv2Pbxbm_-_V7G3kPS',
     ],
     description: 'Square neckline with soft drapes along bust; small ballgown that flows into chapel-length train; optional covered back buttons; removable fabric-covered belt.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Dalida',
@@ -198,7 +203,7 @@ export const products = [
       '1a4yhOuVUiJsVqokuwKgPqr_72BZUY7hM',
     ],
     description: 'Boning detailed Basque bodice; Chantilly lace with sparkle; fit and flare skirt; volume-enhancing godet inserts; matching, long-sleeved bolero jacket with banded collar. This gown is offered with a matching chapel-length Veil.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Dina',
@@ -211,7 +216,7 @@ export const products = [
       '1IbxaI7jqjxUgxd6iB7MYxozkz-saNhKw',
     ],
     description: 'Chantilly corded lace; structured bodice Basque waist; fit and flare; optional side slit; chapel-length train; removable gauntlet sleeves. This gown is offered with a chapel-length veil with a blusher.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Demi',
@@ -224,7 +229,7 @@ export const products = [
       '1a0ErEQejJTUu1QFaz1XpGw2dl1CeiK7a',
     ],
     description: 'straight neckline; structure Basque bodice; elongated waist dreamy ballgown; removable hip bows; Tulle Sunray pleated skirt that flows into chapel-length train.',
-    collection: 'romanceByGabe',
+    collection: 'romance',
   },
   {
     id: 'Dua',
@@ -237,7 +242,73 @@ export const products = [
       '13LKOvQl8FlEw8uSE9H2IxgcmRmba9LhH',
       '1fOzzSwP9Pv8Ok11rNguV_KL3JgPXeCF0',
     ],
-    description: '',
-    collection: 'romanceByGabe',
+    description: 'Mikado; sweetheart neckline; princess seam Basque waist bodice; full ball gown skirt that flows into chapel-length train.',
+    descriptionOptional: 'Optional: Shoulder straps; Chantilly lace; banded collar cap sleeve or halter top',
+    collection: 'romance',
+  },
+  {
+    id: 'Doris',
+    name: 'Doris',
+    mainImage: '1SRlckIIKI0V92UFc7j2CTpnxbIaRAkjS',
+    images: [
+      '1SRlckIIKI0V92UFc7j2CTpnxbIaRAkjS',
+      '1PER6_wkdVgITgbwidT-yZUOfT6ORDjc9',
+      '1IwWk6Y5eDNBr5cUGm2fTjQdBfkfBcQXh'
+    ],
+    description: 'Guipure lace; semi-circular skirt; sweetheart neckline; delicate floral ball gown with shimmering sparkle over three ply Organza; chapel-length train.',
+    collection: 'romance',
+  },
+  {
+    id: 'Delina',
+    name: 'Delina',
+    mainImage: '1IoiIqdhm9g3FYYaKJpHnQDoT55jfqdb9',
+    images: [
+      '1IoiIqdhm9g3FYYaKJpHnQDoT55jfqdb9',
+      '1UofvASpS2OEL75fOxwQc8H7s7zymUb2Z',
+      '1ijJ3zCRrFrnkct9gulIB11l61eDqp8om',
+      '1OUOrWyFiH0i4WkYhipsKpo9OKSgCOZVR',
+      '15cvVo6oviKZKJKImcC3Y3hEytu4QbHyj'
+    ],
+    description: 'Mikado; Empire-waist; square neckline; princess seams fit-and-flare flows into chapel-length train.',
+    descriptionOptional: 'Optional: 3-dimensional floral vest and removable bow.',
+    collection: 'romance',
+  },
+  {
+    id: 'Dale',
+    name: 'Dale',
+    mainImage: '1mPhJT4n4lD67BYWBPgl6ajRKPIvgwk7s',
+    images: [
+      '1mPhJT4n4lD67BYWBPgl6ajRKPIvgwk7s',
+      '11W2hyOqeFQC0nmTjOP_BKKJNu3ONsVMu',
+      '1E7vZZtsOo9-K_BFdE95ro-M7MDmTsBaS'
+    ],
+    description: 'Mikado; lace trimmed neckline; Peplum Bustier with back fabric-covered buttons; front belt detail and trumpet style skirt flow into chapel-length train.',
+    collection: 'romance',
+  },
+  {
+    id: 'Dezirae',
+    name: 'Dezirae',
+    mainImage: '1dBmsXahkTShDcirSUU2llkfWY-0UCvwo',
+    images: [
+      '1dBmsXahkTShDcirSUU2llkfWY-0UCvwo',
+      '10hl7eeW9-ulWAzlsr84wso-_fmJ78R-d',
+      '1OTDU1QfXAQQBcbQ5DNnwPEtIX8ZNNhDe',
+      '13Mbt9ZkMlxkqKlqf9AyRXiIzVOYHEBMu'
+    ],
+    description: 'Mikado; three-dimensional floral applique bustline and chapel-length train; removable scallop floral sleeve; princess line with sheer corset back and contrasting boning channels.',
+    collection: 'romance',
+  },
+  {
+    id: 'Dagny',
+    name: 'Dagny',
+    mainImage: '134-zu4UYTH1xfq1JVjqk4NjtSMglStB5',
+    images: [
+      '134-zu4UYTH1xfq1JVjqk4NjtSMglStB5',
+      '1WcLU0BUvguTbkY7TyqcqMTu6ZYfZisBh',
+      '1JVLP7qSJMVTnJh3gce6B2_jmNt4PSiyE'
+    ],
+    description: 'Mikado; Basque waist; draped corset neckline with boning detail; trumpet style skirt flows into chapel-length train.',
+    descriptionOptional: 'Optional: Chiffon neck scarf.',
+    collection: 'romance',
   },
 ];

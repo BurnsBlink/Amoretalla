@@ -72,7 +72,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/collections" element={<Navigate to="/collections/romanceByGabe" />} /> {/* Default to first collection */}
+        <Route path="/collections" element={<Navigate to="/collections/romance" />} /> {/* Default to first collection */}
         <Route path="/collections/:collection" element={<Collection />} /> {/* Dynamic route */}
         <Route path="/events" element={<Events />} />
         <Route path="/about" element={<About />} />
