@@ -6,11 +6,11 @@ import { products } from '../product/Data';
 function Collection() {
   const { collection: urlCollection } = useParams();
   const location = useLocation();
-  const [selectedCollection, setSelectedCollection] = useState('romanceByGabe');
+  const [selectedCollection, setSelectedCollection] = useState('romance');
   const [hoveredProductId, setHoveredProductId] = useState(null); // Track hovered product
 
   const collections = useMemo(() => [
-    'romanceByGabe',
+    'romance',
   ], []);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ function Collection() {
   }, [urlCollection, location.pathname, collections]);
 
   const collectionTitles = {
-    romanceByGabe: 'Romance by Gabe',
+    romance: 'Romance',
   };
 
   const renderCollectionTitle = (collection) => collectionTitles[collection] || collection;
