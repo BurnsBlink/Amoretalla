@@ -26,12 +26,12 @@ export const products = [
   {
     id: 'Dream',
     name: 'Dream',
-    mainImage: '1GJLTu6-gL2DG81t8wLozoupu1Xd9Ou_d',
+    mainImage: '1LGkTNIm-Q1GJTAnaeWejQmj69sNy-ezR',
     images: [
-      '1GJLTu6-gL2DG81t8wLozoupu1Xd9Ou_d',
+      '1LGkTNIm-Q1GJTAnaeWejQmj69sNy-ezR',
       '1ICbtM4pPrzPEw3cv-F49W_mzLrb3jCwa',
       '1fqERoXpMxTuXEbYlLAuvRwArycjgOiDp',
-      '1LGkTNIm-Q1GJTAnaeWejQmj69sNy-ezR',
+      '1GJLTu6-gL2DG81t8wLozoupu1Xd9Ou_d',
       '1kpnGGnPDQWpwEuBMLx1MTwAEcrgMakdp'
 
     ],
@@ -137,8 +137,7 @@ export const products = [
     images: [
       '1fl6s7WuYXLwilUuRqgPDnsD9pDmfMjDN',
       '1bid-1kyNE95lfpdKlFhsInVKS4Xx1EiH',
-      '1lt4XXw4On4Ss5T4zUeGPQWok_pAXAmvx',
-      '1UU6-b84Dk5z-9SBNHrPJ59KoswX-K4o-',
+      '1EHvmWckTHr9aQvT7an_sTbL2YQBlFtkh'
     ],
     description: 'Satin and Tulle ballgown; voluminous skirt with floral pickup corsage along sides of soft layered tulle; structured curved low-waist corset bodice; sweetheart neckline.',
     collection: 'romance',
