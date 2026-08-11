@@ -46,7 +46,7 @@ const Events = () => {
       city: 'Chicago, IL 60654',
       booth: '7th Floor - Booth 1094',
       link: 'https://www.nationalbridalmarket.com/',
-      image: 'https://drive.google.com/thumbnail?id=1zYfmcNlB86I4iZFLZPEDQP4qjECMDJ2Y',
+      image: 'https://drive.google.com/thumbnail?id=13Mbt9ZkMlxkqKlqf9AyRXiIzVOYHEBMu',
     },
     {
       title: 'Melange de Blanc',
@@ -55,7 +55,7 @@ const Events = () => {
       city: 'New York, NY 10001',
       booth: '3rd Floor',
       link: 'https://www.melangedeblanc.com/',
-      image: 'https://drive.google.com/thumbnail?id=1JGcsL9s4tgvrEml_4dvndj2dD5ktJxtG',
+      image: 'https://drive.google.com/thumbnail?id=1HXlxR6p9DTqw70aLaWKrp4a1sb8eHJtE',
     },
   ];
 
