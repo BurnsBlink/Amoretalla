@@ -58,7 +58,7 @@ function Main() {
         <img
           className="heroImage"
           src={`${process.env.REACT_APP_PROXY_URL}/api/proxy-image?url=${encodeURIComponent(
-            'https://drive.google.com/thumbnail?id=1Ueq4sB_KGVRSCVDlBq2S-MkAtYkwrck6&sz=w1920'
+            'https://drive.google.com/thumbnail?id=1bid-1kyNE95lfpdKlFhsInVKS4Xx1EiH&sz=w1920'
           )}`}
           alt="Modern bridal wedding dress"
         />
