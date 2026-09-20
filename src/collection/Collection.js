@@ -1,6 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Link, useParams, useLocation } from 'react-router-dom';
-import '../App.css';
 import { products } from '../product/Data';
 
 function Collection() {

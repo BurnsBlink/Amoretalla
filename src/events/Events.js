@@ -1,6 +1,5 @@
 // src/components/Events.js
 import React from 'react';
-import '../App.css';
 
 const getEventImageUrl = (baseUrl, width = 800) => {
   const fileIdMatch = baseUrl.match(/id=([^&]+)/) || baseUrl.match(/\/d\/([^/]+)/);

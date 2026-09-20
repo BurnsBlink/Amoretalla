@@ -1,0 +1,156 @@
+@use '../abstracts/variables' as *;
+
+.collection-container {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.collection-menu {
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.collection-content {
+  flex: 1;
+}
+
+.menu-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: $text-dark;
+  text-transform: uppercase;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  font-size: 14px;
+  padding: 8px 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  border-bottom: 1px solid $grey;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &.active {
+    font-weight: 600;
+    border-left: 2px solid $text-dark;
+    padding-left: 8px;
+  }
+}
+
+.custom-link {
+  color: $text-dark;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+
+  &:hover {
+    color: $text-light;
+    text-decoration: none;
+  }
+
+  &.active {
+    color: $text-dark;
+  }
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.collection-item {
+  text-decoration: none !important;
+  color: inherit;
+
+  &:hover {
+    text-decoration: none !important;
+
+    .mainSubtitleText {
+      color: $text-dark;
+      font-size: 21px;
+    }
+  }
+}
+
+.collection-image {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  background-color: $grey;
+  display: block;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+
+.alogo {
+  height: 32px;
+  vertical-align: middle;
+}
+
+@media (max-width: 1024px) {
+  .collection-container {
+    flex-direction: column;
+  }
+
+  .collection-menu {
+    width: 100%;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .menu-item {
+    padding: 5px 10px;
+    border-bottom: none;
+    border-right: 1px solid $grey;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    &.active {
+      border-left: none;
+      border-bottom: 2px solid $text-dark;
+      padding-left: 0;
+    }
+  }
+
+  .alogo {
+    height: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .collection-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .collection-grid {
+    grid-template-columns: 1fr;
+  }
+}
