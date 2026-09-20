@@ -2,6 +2,8 @@
   --grey: #e0e0e0;
   --text-dark: #333;
   --text-light: #666;
+  --background-grey: #2a2a2a;
+  --soft-gold: #F8EDD8;
   --white: #fff;
   --accent: #f8f8ff; /* Soft blush for bridal aesthetic */
   --shadow: rgba(0, 0, 0, 0.1);
@@ -25,7 +27,7 @@
   padding: 32px 30px;
   position: relative;
   min-height: 118px;
-  border-bottom: 1px solid #F8EDD8;
+  border-bottom: 1px solid var(--soft-gold);
 }
 
 /* Hamburger always visible and on the left */
@@ -37,7 +39,6 @@
   border: none;
   cursor: pointer;
   padding: 8px;
-  z-index: 20;
   flex: 0 0 auto;
   z-index: 110;
 }
@@ -91,7 +92,7 @@
   bottom: 0;
   height: 100vh;
   width: 0;
-  background: #2a2a2a;
+  background: var(--background-grey);
   z-index: 30;
   transition: width 0.3s ease;
   padding-top: 80px;
@@ -116,7 +117,7 @@
 }
 
 .mobileSubLink:hover {
-  color: #F8EDD8
+  color: var(--soft-gold)
 }
 
 .mobileSubLink:hover,
@@ -298,7 +299,7 @@
 }
 
 .appFooter {
-  background: #f8f8ff;
+  background: var(--white);
   border-top: 0.125rem solid gainsboro;
   bottom: 0;
   display: block;
@@ -316,7 +317,7 @@
 }
 
 .subt {
-  background: #f8f8ff;
+  background: var(--white);
   font-family: 'Montserrat';
   font-size: 0.5rem;
   margin-top: 0.5rem;
@@ -430,7 +431,7 @@
 .igImg {
   max-width: 19em;
   border: solid;
-  border-color: #f8f8ff;
+  border-color: var(--white);
   border-bottom: 10px;
   border-top: 10px;
   margin-bottom: 5px;
@@ -482,75 +483,187 @@
   margin-top: 50px;
 }
 
-/* CONTACT */
-.contact {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left !important;
+/* ===================== CONTACT ===================== */
+
+.contactPage {
+  padding-bottom: 5rem;
 }
 
-.pageBodyContact {
-  padding-bottom: 7.5rem;
+.contactContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
-.containerContact {
-  width: 100%;
+.contactLayout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 50px;
+  margin-top: 40px;
+  align-items: start;
 }
 
-.italicStyle {
+/* Form */
+.contactFormWrapper {
+  background: var(--white);
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formGroup label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text-dark);
+}
+
+.formGroup .optional {
+  font-weight: 400;
+  text-transform: none;
+  color: var(--text-light);
   font-style: italic;
 }
 
-.btnSubmit {
-  background-color: #181818;
-  border: 1px outset var(--white);
+.formGroup input,
+.formGroup textarea {
+  padding: 12px 14px;
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+  font-size: 1rem;
+  color: var(--text-dark);
+  background: var(--white);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--text-dark);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.formGroup textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Phone input overrides */
+.phoneInput {
+  border: 1px solid var(--grey) !important;
+  border-radius: 4px !important;
+  padding: 4px 8px !important;
+}
+
+.phoneInput:focus-within {
+  border-color: var(--text-dark) !important;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.PhoneInputInput {
+  border: none !important;
+  outline: none !important;
+  font-size: 1rem !important;
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 8px 4px !important;
+}
+
+/* Submit button */
+.contactSubmitBtn {
+  margin-top: 8px;
+  padding: 14px 28px;
+  background: #181818;
   color: var(--white);
+  border: 1px solid #181818;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.2s ease, border-color 0.25s ease;
+  align-self: center;
+}
+
+.contactSubmitBtn:hover:not(:disabled) {
+  background: #333;
+  border-color: #333;
+  transform: translateY(-1px);
+}
+
+.contactSubmitBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Contact Info Card */
+.contactInfoCard {
+  background: #fafafa;
+  border: 1px solid var(--grey);
+  border-radius: 8px;
+  padding: 36px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.contactInfoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contactLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
   letter-spacing: 1px;
-  margin-bottom: 16px;
+  text-transform: uppercase;
+  color: var(--text-light);
 }
 
-.btnSubmit:hover {
-  border: 1px outset var(--text-dark);
-  color: var(--white);
-}
-
-.contactInfo {
-  margin-top: 45px;
-}
-
-.emailLink {
+.contactInfoItem a {
   color: var(--text-dark);
-  font-size: 18px;
-  white-space: nowrap;
+  font-size: 1.1rem;
+  text-decoration: none;
+  line-height: 1.5;
+  transition: color 0.2s ease;
 }
 
-.phoneLink {
-  color: var(--text-dark);
-  font-size: 18px;
-  white-space: nowrap;
+.contactInfoItem a:hover {
+  color: #666;
 }
 
-.address {
-  color: var(--text-dark);
-  font-size: 18px;
-  margin-bottom: 20px;
-}
+/* Responsive */
+@media (max-width: 768px) {
+  .contactLayout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 
-.addressBlock {
-  margin-top: 50px;
-}
+  .contactInfoCard {
+    order: -1; /* Info card appears above the form on mobile */
+    padding: 28px 24px;
+  }
 
-.bizCard {
-  border: 5px solid var(--text-light);
-  margin-bottom: 20px;
-  margin-top: 20px;
-  max-width: 350px;
-  max-height: 350px;
-}
+  .contactContainer {
+    padding: 30px 15px;
+  }
 
-.bizCard:hover {
-  border: 1px solid var(--text-light);
-  padding: 4px;
+  .contactSubmitBtn {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* Sidebar */
@@ -567,7 +680,7 @@
   list-style: none;
   position: fixed;
   top: 0;
-  background: #2a2a2a;
+  background: var(--background-grey);
   left: -40px;
   bottom: 0;
   height: 100vh;
