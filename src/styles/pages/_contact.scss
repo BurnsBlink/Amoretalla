@@ -1,0 +1,176 @@
+@use '../abstracts/variables' as *;
+
+.contactPage {
+  padding-bottom: 5rem;
+}
+
+.contactContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.contactLayout {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 50px;
+  margin-top: 40px;
+  align-items: start;
+}
+
+.contactFormWrapper {
+  background: $white;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: $text-dark;
+  }
+
+  .optional {
+    font-weight: 400;
+    text-transform: none;
+    color: $text-light;
+    font-style: italic;
+  }
+
+  input,
+  textarea {
+    padding: 12px 14px;
+    border: 1px solid $grey;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: $text-dark;
+    background: $white;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    font-family: 'Montserrat', sans-serif;
+
+    &:focus {
+      outline: none;
+      border-color: $text-dark;
+      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+}
+
+.phoneInput {
+  border: 1px solid $grey !important;
+  border-radius: 4px !important;
+  padding: 4px 8px !important;
+
+  &:focus-within {
+    border-color: $text-dark !important;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.PhoneInputInput {
+  border: none !important;
+  outline: none !important;
+  font-size: 1rem !important;
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 8px 4px !important;
+}
+
+.contactSubmitBtn {
+  margin-top: 8px;
+  padding: 14px 28px;
+  background: $black;
+  color: $white;
+  border: 1px solid $black;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.2s ease, border-color 0.25s ease;
+  align-self: center;
+
+  &:hover:not(:disabled) {
+    background: $text-dark;
+    border-color: $text-dark;
+    transform: translateY(-1px);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+}
+
+.contactInfoCard {
+  background: #fafafa;
+  border: 1px solid $grey;
+  border-radius: 8px;
+  padding: 36px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.contactInfoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contactLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $text-light;
+}
+
+.contactInfoItem a {
+  color: $text-dark;
+  font-size: 1.1rem;
+  text-decoration: none;
+  line-height: 1.5;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $text-light;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactLayout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contactInfoCard {
+    order: -1;
+    padding: 28px 24px;
+  }
+
+  .contactContainer {
+    padding: 30px 15px;
+  }
+
+  .contactSubmitBtn {
+    width: 100%;
+    text-align: center;
+  }
+}

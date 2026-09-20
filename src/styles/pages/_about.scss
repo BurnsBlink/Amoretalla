@@ -1,0 +1,127 @@
+@use '../abstracts/variables' as *;
+
+.aboutContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.aboutSection {
+  margin-bottom: 60px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+
+  &:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  &:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+}
+
+.designerContent {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.storyContent {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.designerImageWrapper,
+.storyImageWrapper {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.aboutUsProfileImg,
+.aboutStoryImg {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutUsProfileImg {
+  box-shadow: 0 4px 10px $shadow;
+}
+
+.aboutUsProfileImg:hover,
+.aboutStoryImg:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px $shadow;
+}
+
+.designerText,
+.storyText {
+  flex: 1;
+  min-width: 300px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: $text-dark;
+
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+.publicationContent {
+  text-align: center;
+}
+
+.pubLink {
+  color: $text-dark;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid $text-light;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background: $accent;
+    color: $text-dark;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .aboutUsProfileImg,
+  .aboutStoryImg {
+    max-height: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .designerContent,
+  .storyContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .storyContent {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutContainer {
+    padding: 20px 15px;
+  }
+
+  .designerText,
+  .storyText {
+    font-size: 1rem;
+  }
+}

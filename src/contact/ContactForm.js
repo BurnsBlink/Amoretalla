@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import PhoneInput, { formatPhoneNumber } from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
-import '../App.css';
 
 const ContactForm = () => {
   const [phone, setPhone] = useState();
@@ -73,6 +72,7 @@ const ContactForm = () => {
               <div className="formGroup">
                 <label htmlFor="phoneNumber">Phone Number</label>
                 <PhoneInput
+                  id="phoneNumber"
                   placeholder="Enter phone number"
                   defaultCountry="US"
                   value={phone}

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Route, Routes, Navigate } from 'react-router-dom'; // Added Navigate for redirection
 import Hamburger from 'hamburger-react';
-import './App.css';
 import About from './about/About';
 import ContactForm from './contact/ContactForm';
 import Events from './events/Events';
@@ -9,6 +8,7 @@ import Collection from './collection/Collection';
 import Main from './main/Main';
 import Product from './product/Product';
 import Footer from './footer/Footer';
+import './styles/main.scss';
 
 function App() {
   const [navbarOpen, setNavbarOpen] = useState(false);

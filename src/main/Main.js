@@ -1,7 +1,6 @@
 import React from 'react';
 import { longForm } from '../util/utilities';
 import BeholdWidget from '@behold/react';
-import '../App.css';
 
 const getImageSrcSet = (baseUrl) => ({
   src: `${baseUrl}?tr=w-1200`,
